@@ -6,8 +6,20 @@
   "evaluationVersion": 2,
   "pages": [
     {
-      "id": "Page1",
+      "id": "Home",
       "isDefault": true
+    },
+    {
+      "id": "Login",
+      "isDefault": false
+    },
+    {
+      "id": "Preferences",
+      "isDefault": false
+    },
+    {
+      "id": "Results",
+      "isDefault": false
     }
   ]
 }
