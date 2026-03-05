@@ -1,9 +1,9 @@
 {
   "gitSyncId": "69a9ccbceb26037d8a9f9a00_c8c1c0cf-6a4c-4894-bdc7-c370f561b121",
-  "id": "Results_Mock",
+  "id": "Homepage_Mock",
   "unpublishedCollection": {
     "name": "Mock",
-    "pageId": "Results",
+    "pageId": "Homepage",
     "pluginId": "js-plugin",
     "pluginType": "JS",
     "variables": [

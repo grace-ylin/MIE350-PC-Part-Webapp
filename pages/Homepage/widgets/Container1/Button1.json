@@ -1,0 +1,50 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 8,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "egacmaafa5",
+  "leftColumn": 2,
+  "minWidth": 120,
+  "mobileBottomRow": 9,
+  "mobileLeftColumn": 5,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 5,
+  "needsErrorInfo": false,
+  "onClick": "{{JSObject1.Button1onClick();}}",
+  "parentColumnSpace": 12.75,
+  "parentId": "cj7c731y0j",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 18,
+  "text": "Modify Preferences",
+  "topRow": 4,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "snhqolbd77",
+  "widgetName": "Button1"
+}

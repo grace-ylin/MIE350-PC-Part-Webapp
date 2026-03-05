@@ -6,8 +6,8 @@
   "evaluationVersion": 2,
   "pages": [
     {
-      "id": "Home",
-      "isDefault": true
+      "id": "Results",
+      "isDefault": false
     },
     {
       "id": "Login",
@@ -18,8 +18,8 @@
       "isDefault": false
     },
     {
-      "id": "Results",
-      "isDefault": false
+      "id": "Homepage",
+      "isDefault": true
     }
   ]
 }

@@ -1,0 +1,50 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 13,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "egacmaafa5",
+  "leftColumn": 2,
+  "minWidth": 120,
+  "mobileBottomRow": 14,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 18,
+  "mobileTopRow": 10,
+  "needsErrorInfo": false,
+  "onClick": "{{JSObject2.Button2onClick();}}",
+  "parentColumnSpace": 12.75,
+  "parentId": "cj7c731y0j",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 18,
+  "text": "Generate New Build",
+  "topRow": 9,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "bhvv9bncw7",
+  "widgetName": "Button2"
+}
