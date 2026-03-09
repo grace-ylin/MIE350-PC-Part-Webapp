@@ -20,6 +20,10 @@
     {
       "id": "Homepage",
       "isDefault": true
+    },
+    {
+      "id": "Signup",
+      "isDefault": false
     }
   ]
 }
