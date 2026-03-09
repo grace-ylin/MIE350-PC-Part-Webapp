@@ -221,7 +221,7 @@ export default {
     return {
       id: `${Date.now()}_${Math.floor(Math.random() * 100000)}`,
       title: customTitle || `${build.prefs.useCase} Build`,
-      preview_image_url: build.parts.gpu?.imageUrl || "https://picsum.photos/seed/fallbackpc/800/400",
+      preview_image_url: build.parts.gpu.imageUrl,
       total_price: build.totals.price,
       highlight_1: cpu,
       highlight_2: gpu,
@@ -269,17 +269,6 @@ export default {
 
   getSavedBuilds() {
     return appsmith.store.savedBuilds || this.initialBuilds();
-  },
-	
-	async deleteBuild(buildId) {
-		const current = this.getSavedBuilds();
-		const updated = current.filter((b) => String(b.id) !== String(buildId));
-		await storeValue("savedBuilds", updated);
-
-		const selected = appsmith.store.selectedBuild;
-		if (selected && String(selected.id) === String(buildId)) {
-			await storeValue("selectedBuild", null);
-		}
-	}
+  }
 
 };

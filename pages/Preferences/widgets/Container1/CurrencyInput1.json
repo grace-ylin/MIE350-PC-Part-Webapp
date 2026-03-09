@@ -8,7 +8,7 @@
   "boxShadow": "none",
   "decimals": 0,
   "defaultCurrencyCode": "CAD",
-  "defaultText": "{{ appsmith.store.prefs?.budget || 1200 }}",
+  "defaultText": "{{ appsmith.store.userPreferences?.budget || 1200 }}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"

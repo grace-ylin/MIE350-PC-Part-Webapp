@@ -1,0 +1,51 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 4,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconName": "trash",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "cm13hty70n",
+  "leftColumn": 60,
+  "minWidth": 50,
+  "mobileBottomRow": 30,
+  "mobileLeftColumn": 7,
+  "mobileRightColumn": 11,
+  "mobileTopRow": 26,
+  "needsErrorInfo": false,
+  "onClick": "{{\nshowAlert(\"Deleting build...\", \"info\");\nMock.deleteBuild(currentItem.id)\n}}",
+  "parentColumnSpace": 12.75,
+  "parentId": "rle056kcx4",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 62,
+  "topRow": 0,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "0rhozsfi9d",
+  "widgetName": "IconButton1"
+}

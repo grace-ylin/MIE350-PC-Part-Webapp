@@ -33,7 +33,7 @@
   "mobileRightColumn": 62,
   "mobileTopRow": 29,
   "needsErrorInfo": false,
-  "onClick": "{{\n  storeValue(\"prefs\", {\n    budget: Number(CurrencyInput1.value),\n    useCase: Select1.selectedOptionValue,\n    formFactor: \"ATX\"\n  }).then(() => navigateTo(\"Homepage\"))\n}}",
+  "onClick": "{{\nstoreValue(\"userPreferences\", {\n  budget: Number(CurrencyInput1.value),\n  useCase: Select1.selectedOptionValue,\n  formFactor: \"ATX\"\n});\nnavigateTo(\"Homepage\");\n}}",
   "parentColumnSpace": 11.7294921875,
   "parentId": "zqrvvhkzq4",
   "parentRowSpace": 10,
