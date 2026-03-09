@@ -1,14 +1,16 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "borderWidth": "",
-  "bottomRow": 20,
+  "bottomRow": 24,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -23,28 +25,28 @@
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 20,
+  "mobileBottomRow": 25,
   "mobileLeftColumn": 49,
   "mobileRightColumn": 64,
-  "mobileTopRow": 16,
+  "mobileTopRow": 21,
   "needsErrorInfo": false,
-  "originalBottomRow": 20,
-  "originalTopRow": 16,
+  "originalBottomRow": 25,
+  "originalTopRow": 21,
   "overflow": "NONE",
   "parentColumnSpace": 7.2578125,
-  "parentId": "9j5z8dvjb7",
+  "parentId": "wuzuu0h1t4",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 62,
+  "rightColumn": 60,
   "shouldTruncate": false,
-  "text": "Total Price",
+  "text": "$ {{ appsmith.store.build?.totals?.price || \"—\" }}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 16,
+  "topRow": 20,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "t03un4j8ri",
-  "widgetName": "Text2"
+  "widgetId": "wjwz1s035w",
+  "widgetName": "Text3"
 }
