@@ -1,0 +1,55 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 72,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": true,
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "xu3wy1kkuf",
+  "leftColumn": 24,
+  "minWidth": 120,
+  "mobileBottomRow": 37,
+  "mobileLeftColumn": 46,
+  "mobileRightColumn": 62,
+  "mobileTopRow": 33,
+  "needsErrorInfo": false,
+  "onClick": "{{\nsignup_api.run(\n  (response) => {\n    if (response?.json?.email) { \n      storeValue('jwt', 'mock_token_123');\n      showAlert('Success! Entry granted.', 'success');\n      navigateTo('Homepage', {});\n    } else {\n      showAlert('Invalid email or password', 'error');\n    }\n  },\n  (error) => {\n    showAlert('Network Error: ' + error, 'error');\n  }\n)\n}}",
+  "originalBottomRow": 72,
+  "originalTopRow": 68,
+  "parentId": "1psz66s5nf",
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": true,
+  "responsiveBehavior": "hug",
+  "rightColumn": 40,
+  "text": "Create Account",
+  "topRow": 68,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "zqo913svpd",
+  "widgetName": "Button1Copy"
+}

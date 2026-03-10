@@ -1,0 +1,91 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 4,
+  "boxShadow": "none",
+  "configureMenuItems": {
+    "config": {
+      "id": "config",
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Menu Item"
+    },
+    "id": "config",
+    "label": "Configure menu items"
+  },
+  "dynamicBindingPathList": [
+    {
+      "key": "menuColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "menuItems.menuItem1.onClick"
+    },
+    {
+      "key": "menuItems.menuItembdyynrx488.onClick"
+    }
+  ],
+  "iconAlign": "left",
+  "iconName": "menu",
+  "isCompact": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "e0zlkeu91r",
+  "label": "",
+  "leftColumn": 59,
+  "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+  "menuItems": {
+    "menuItem1": {
+      "id": "menuItem1",
+      "index": 1,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Preferences",
+      "onClick": "{{navigateTo('Preferences', {}, 'SAME_WINDOW');}}",
+      "widgetId": ""
+    },
+    "menuItem2": {
+      "id": "menuItem2",
+      "index": 2,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Sign Out",
+      "widgetId": ""
+    },
+    "menuItembdyynrx488": {
+      "id": "menuItembdyynrx488",
+      "index": 0,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Settings",
+      "onClick": "{{navigateTo('Account Settings', {}, 'SAME_WINDOW');}}",
+      "widgetId": "12w5j4tdck"
+    }
+  },
+  "menuItemsSource": "STATIC",
+  "menuVariant": "PRIMARY",
+  "mobileBottomRow": 4,
+  "mobileLeftColumn": 47,
+  "mobileRightColumn": 63,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "originalBottomRow": 71,
+  "originalTopRow": 67,
+  "parentColumnSpace": 19.8125,
+  "parentId": "cj7c731y0j",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "renderMode": "CANVAS",
+  "rightColumn": 63,
+  "sourceData": "[]",
+  "topRow": 0,
+  "type": "MENU_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "p2zitrjb1o",
+  "widgetName": "Options_Menu"
+}

@@ -15,10 +15,18 @@
     },
     {
       "id": "Homepage",
+      "isDefault": false
+    },
+    {
+      "id": "Login",
+      "isDefault": false
+    },
+    {
+      "id": "Signin",
       "isDefault": true
     },
     {
-      "id": "Signup",
+      "id": "Settings",
       "isDefault": false
     }
   ]

@@ -1,0 +1,47 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 5,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconName": "home",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "odo4kr058f",
+  "leftColumn": 2,
+  "minWidth": 50,
+  "mobileBottomRow": 4,
+  "mobileLeftColumn": 20,
+  "mobileRightColumn": 24,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "onClick": "{{navigateTo('Homepage', {}, 'SAME_WINDOW');}}",
+  "originalBottomRow": 32,
+  "originalTopRow": 28,
+  "parentColumnSpace": 19.5,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 6,
+  "topRow": 1,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "29cwbys41u",
+  "widgetName": "IconButton2"
+}
