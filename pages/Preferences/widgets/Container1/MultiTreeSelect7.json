@@ -1,10 +1,13 @@
 {
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "allowClear": false,
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 50,
+  "bottomRow": 58,
   "boxShadow": "none",
-  "defaultOptionValue": "GREEN",
+  "defaultOptionValue": [
+    "GREEN"
+  ],
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -13,52 +16,45 @@
       "key": "borderRadius"
     },
     {
-      "key": "sourceData"
+      "key": "options"
     }
   ],
   "dynamicHeight": "FIXED",
-  "dynamicPropertyPathList": [
-    {
-      "key": "sourceData"
-    }
-  ],
   "dynamicTriggerPathList": [],
+  "expandAll": false,
   "isDisabled": false,
-  "isFilterable": true,
   "isLoading": false,
   "isRequired": false,
   "isVisible": true,
-  "key": "hhi0ldgvu6",
+  "key": "sdql2rw4mz",
   "labelAlignment": "left",
   "labelPosition": "Top",
-  "labelText": "Intended Use\n",
+  "labelText": "Storage Preference",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
-  "leftColumn": 42,
+  "leftColumn": 3,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 18,
+  "mobileBottomRow": 49,
   "mobileLeftColumn": 3,
   "mobileRightColumn": 23,
-  "mobileTopRow": 11,
+  "mobileTopRow": 42,
+  "mode": "SHOW_ALL",
   "needsErrorInfo": false,
-  "optionLabel": "label",
-  "optionValue": "value",
-  "originalBottomRow": 50,
-  "originalTopRow": 35,
+  "options": "{{PreferencesForm.storageBrandOptions()}}",
+  "originalBottomRow": 58,
+  "originalTopRow": 51,
   "parentColumnSpace": 10.05859375,
   "parentId": "zqrvvhkzq4",
   "parentRowSpace": 10,
-  "placeholderText": "Select option",
+  "placeholderText": "Choose Storage",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 60,
-  "serverSideFiltering": false,
-  "sourceData": "{{PreferencesForm.buildCategoryOptions()}}",
-  "topRow": 35,
-  "type": "SELECT_WIDGET",
+  "rightColumn": 23,
+  "topRow": 51,
+  "type": "MULTI_SELECT_TREE_WIDGET",
   "version": 1,
-  "widgetId": "afjy3tb2l9",
-  "widgetName": "Select2"
+  "widgetId": "yiz5i5bskw",
+  "widgetName": "MultiTreeSelect7"
 }
