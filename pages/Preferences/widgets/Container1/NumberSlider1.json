@@ -1,0 +1,62 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "bottomRow": 13,
+  "defaultValue": 10,
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "cuvm3dz64g",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Maximum Budget",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 8,
+  "leftColumn": 15,
+  "marks": [
+    {
+      "label": "25%",
+      "value": 25
+    },
+    {
+      "label": "50%",
+      "value": 50
+    },
+    {
+      "label": "75%",
+      "value": 75
+    }
+  ],
+  "max": 100,
+  "min": 0,
+  "mobileBottomRow": 8,
+  "mobileLeftColumn": 10,
+  "mobileRightColumn": 50,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "originalBottomRow": 13,
+  "originalTopRow": 7,
+  "parentColumnSpace": 15.2734375,
+  "parentId": "zqrvvhkzq4",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 50,
+  "shouldScroll": false,
+  "shouldTruncate": false,
+  "showMarksLabel": true,
+  "sliderSize": "m",
+  "step": 1,
+  "tooltipAlwaysOn": false,
+  "topRow": 7,
+  "type": "NUMBER_SLIDER_WIDGET",
+  "version": 1,
+  "widgetId": "mgvrar8zyh",
+  "widgetName": "NumberSlider1"
+}

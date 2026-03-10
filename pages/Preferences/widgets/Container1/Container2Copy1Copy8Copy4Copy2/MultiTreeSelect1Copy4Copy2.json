@@ -1,10 +1,11 @@
 {
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "allowClear": false,
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 18,
+  "bottomRow": 8,
   "boxShadow": "none",
-  "defaultOptionValue": "GREEN",
+  "defaultOptionValue": "blank error\n",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -13,50 +14,43 @@
       "key": "borderRadius"
     },
     {
-      "key": "sourceData"
+      "key": "options"
     }
   ],
   "dynamicHeight": "FIXED",
-  "dynamicPropertyPathList": [
-    {
-      "key": "sourceData"
-    }
-  ],
   "dynamicTriggerPathList": [],
+  "expandAll": false,
   "isDisabled": false,
-  "isFilterable": true,
   "isLoading": false,
   "isRequired": false,
   "isVisible": true,
-  "key": "hhi0ldgvu6",
+  "key": "wac3rofuks",
   "labelAlignment": "left",
   "labelPosition": "Top",
-  "labelText": "Label",
+  "labelText": "Power Supply",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
-  "leftColumn": 3,
+  "leftColumn": 28,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 18,
+  "mobileBottomRow": 30,
   "mobileLeftColumn": 3,
   "mobileRightColumn": 23,
-  "mobileTopRow": 11,
+  "mobileTopRow": 23,
+  "mode": "SHOW_ALL",
   "needsErrorInfo": false,
-  "optionLabel": "name",
-  "optionValue": "value",
+  "options": "{{PreferencesForm.cpuOptions()}}",
   "parentColumnSpace": 10.05859375,
-  "parentId": "zqrvvhkzq4",
+  "parentId": "24jlkdqyqc",
   "parentRowSpace": 10,
-  "placeholderText": "Select option",
+  "placeholderText": "Select option(s)",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 23,
-  "serverSideFiltering": false,
-  "sourceData": "{{PreferencesForm.buildCategoryOptions()}}",
-  "topRow": 11,
-  "type": "SELECT_WIDGET",
+  "rightColumn": 63,
+  "topRow": 1,
+  "type": "MULTI_SELECT_TREE_WIDGET",
   "version": 1,
-  "widgetId": "afjy3tb2l9",
-  "widgetName": "Select2"
+  "widgetId": "cyct0ej5mv",
+  "widgetName": "MultiTreeSelect1Copy4Copy2"
 }
