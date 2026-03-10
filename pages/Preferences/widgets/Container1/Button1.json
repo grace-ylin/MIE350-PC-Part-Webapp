@@ -1,17 +1,19 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 10,
+  "bottomRow": 72,
   "boxShadow": "none",
-  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonColor": "#d5e2eb",
   "buttonVariant": "PRIMARY",
   "disabledWhenInvalid": false,
   "dynamicBindingPathList": [
     {
-      "key": "buttonColor"
-    },
-    {
       "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
     }
   ],
   "dynamicTriggerPathList": [
@@ -23,28 +25,30 @@
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "ptmm0apd9q",
-  "leftColumn": 44,
+  "key": "l93tz6q48n",
+  "leftColumn": 49,
   "minWidth": 120,
-  "mobileBottomRow": 28,
-  "mobileLeftColumn": 44,
-  "mobileRightColumn": 60,
-  "mobileTopRow": 24,
+  "mobileBottomRow": 33,
+  "mobileLeftColumn": 46,
+  "mobileRightColumn": 62,
+  "mobileTopRow": 29,
   "needsErrorInfo": false,
-  "onClick": "{{PreferencesForm.save();}}",
-  "parentColumnSpace": 10.05859375,
-  "parentId": "zqrvvhkzq4",
+  "onClick": "{{\nstoreValue(\"userPreferences\", {\n  budget: Number(CurrencyInput1.value),\n  useCase: Select1.selectedOptionValue,\n  formFactor: \"ATX\"\n});\nnavigateTo(\"Homepage\");\n}}",
+  "originalBottomRow": 72,
+  "originalTopRow": 68,
+  "parentColumnSpace": 11.7294921875,
+  "parentId": "7kjwmgguef",
   "parentRowSpace": 10,
   "placement": "CENTER",
   "recaptchaType": "V3",
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 62,
-  "text": "Save",
-  "topRow": 3,
+  "rightColumn": 64,
+  "text": "Save Preferences",
+  "topRow": 68,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "qqx00nhiry",
+  "widgetId": "u7tp43rji8",
   "widgetName": "Button1"
 }
