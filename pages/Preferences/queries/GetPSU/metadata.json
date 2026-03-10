@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "69b02bb8b387763859c8389a_e46e8dde-affe-4c52-8b57-3cb441780831",
-  "id": "Homepage_TestCall",
+  "gitSyncId": "69b044b1b387763859c83915_1a756dac-1b73-4f58-82b2-7a04cc6c2c9e",
+  "id": "Preferences_GetPSU",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -16,7 +16,7 @@
       "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/cpus",
+      "path": "/psus",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -33,9 +33,9 @@
       "pluginId": "restapi-plugin"
     },
     "dynamicBindingPathList": [],
-    "name": "TestCall",
-    "pageId": "Homepage",
-    "runBehaviour": "MANUAL",
+    "name": "GetPSU",
+    "pageId": "Preferences",
+    "runBehaviour": "AUTOMATIC",
     "userSetOnLoad": false
   }
 }

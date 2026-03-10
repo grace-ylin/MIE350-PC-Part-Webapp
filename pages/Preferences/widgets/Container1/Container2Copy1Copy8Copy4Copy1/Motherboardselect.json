@@ -27,7 +27,7 @@
   "key": "wac3rofuks",
   "labelAlignment": "left",
   "labelPosition": "Top",
-  "labelText": "Storage",
+  "labelText": "Motherboard",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
   "leftColumn": 28,
@@ -40,9 +40,9 @@
   "mobileTopRow": 23,
   "mode": "SHOW_ALL",
   "needsErrorInfo": false,
-  "options": "{{PreferencesForm.cpuOptions()}}",
+  "options": "{{\n[...new Set((GetMotherboard.data || []).map(item => item.brand))]\n  .filter(Boolean)\n  .map(brand => ({\n    label: brand,\n    value: brand\n  }))\n}}",
   "parentColumnSpace": 10.05859375,
-  "parentId": "8a7f9vfdtc",
+  "parentId": "xhijwpqy3k",
   "parentRowSpace": 10,
   "placeholderText": "Select option(s)",
   "renderMode": "CANVAS",
@@ -51,6 +51,6 @@
   "topRow": 1,
   "type": "MULTI_SELECT_TREE_WIDGET",
   "version": 1,
-  "widgetId": "e5qqvpmn52",
-  "widgetName": "MultiTreeSelect1Copy4Copy6"
+  "widgetId": "mguzqimig3",
+  "widgetName": "Motherboardselect"
 }

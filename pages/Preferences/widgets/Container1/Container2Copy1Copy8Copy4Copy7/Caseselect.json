@@ -27,7 +27,7 @@
   "key": "wac3rofuks",
   "labelAlignment": "left",
   "labelPosition": "Top",
-  "labelText": "Cooler",
+  "labelText": "Case",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
   "leftColumn": 28,
@@ -40,9 +40,9 @@
   "mobileTopRow": 23,
   "mode": "SHOW_ALL",
   "needsErrorInfo": false,
-  "options": "{{PreferencesForm.cpuOptions()}}",
+  "options": "{{\n[...new Set((GetCase.data || []).map(item => item.brand))]\n  .filter(Boolean)\n  .map(brand => ({\n    label: brand,\n    value: brand\n  }))\n}}",
   "parentColumnSpace": 10.05859375,
-  "parentId": "4eoy323h4y",
+  "parentId": "9p9dor9kpg",
   "parentRowSpace": 10,
   "placeholderText": "Select option(s)",
   "renderMode": "CANVAS",
@@ -51,6 +51,6 @@
   "topRow": 1,
   "type": "MULTI_SELECT_TREE_WIDGET",
   "version": 1,
-  "widgetId": "ljoq7zezdz",
-  "widgetName": "MultiTreeSelect1Copy4Copy5"
+  "widgetId": "xgxf8yr670",
+  "widgetName": "Caseselect"
 }

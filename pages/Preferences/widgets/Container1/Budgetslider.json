@@ -1,7 +1,7 @@
 {
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
-  "bottomRow": 13,
+  "bottomRow": 11,
   "defaultValue": 10,
   "dynamicBindingPathList": [
     {
@@ -19,21 +19,8 @@
   "labelTextSize": "0.875rem",
   "labelWidth": 8,
   "leftColumn": 15,
-  "marks": [
-    {
-      "label": "25%",
-      "value": 25
-    },
-    {
-      "label": "50%",
-      "value": 50
-    },
-    {
-      "label": "75%",
-      "value": 75
-    }
-  ],
-  "max": 100,
+  "marks": "[\n  {\n    \"label\": \"500\",\n    \"value\": 500\n  },\n  {\n    \"label\": \"1000\",\n    \"value\": 1000\n  },\n  {\n    \"label\": \"1500\",\n    \"value\": 1500\n  }\n]",
+  "max": "2000",
   "min": 0,
   "mobileBottomRow": 8,
   "mobileLeftColumn": 10,
@@ -52,11 +39,11 @@
   "shouldTruncate": false,
   "showMarksLabel": true,
   "sliderSize": "m",
-  "step": 1,
+  "step": "100",
   "tooltipAlwaysOn": false,
-  "topRow": 7,
+  "topRow": 5,
   "type": "NUMBER_SLIDER_WIDGET",
   "version": 1,
   "widgetId": "x0wrxflpwv",
-  "widgetName": "NumberSlider1"
+  "widgetName": "Budgetslider"
 }

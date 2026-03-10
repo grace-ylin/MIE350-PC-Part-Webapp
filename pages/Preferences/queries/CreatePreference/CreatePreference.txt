@@ -1,0 +1,12 @@
+{
+  "preferredCpuBrand": {{ CPUselect.selectedOptionValues?.[0] || null }},
+  "preferredGpuBrand": {{ GPUselect.selectedOptionValues?.[0] || null }},
+  "preferredMotherboardBrand": {{ Motherboardselect.selectedOptionValues?.[0] || null }},
+  "preferredRamBrand": {{ Ramselect.selectedOptionValues?.[0] || null }},
+  "preferredPsuBrand": {{ Powersupplyselect.selectedOptionValues?.[0] || null }},
+  "preferredCaseBrand": {{ Caseselect.selectedOptionValues?.[0] || null }},
+  "preferredStorageBrand": {{ Storageselect.selectedOptionValues?.[0] || null }},
+  "preferredCoolerBrand": {{ Coolerselect.selectedOptionValues?.[0] || null }},
+  "buildCategory": {{ Usageselect.selectedOptionValue || null }},
+  "maxBudget": {{ Number(Budgetslider.value) }}
+}

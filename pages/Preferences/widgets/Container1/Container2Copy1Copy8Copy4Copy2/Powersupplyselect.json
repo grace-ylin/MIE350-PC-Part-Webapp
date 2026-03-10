@@ -40,7 +40,7 @@
   "mobileTopRow": 23,
   "mode": "SHOW_ALL",
   "needsErrorInfo": false,
-  "options": "{{PreferencesForm.cpuOptions()}}",
+  "options": "{{\n[...new Set((GetPSU.data || []).map(item => item.brand))]\n  .filter(Boolean)\n  .map(brand => ({\n    label: brand,\n    value: brand\n  }))\n}}",
   "parentColumnSpace": 10.05859375,
   "parentId": "in2ry1acox",
   "parentRowSpace": 10,
@@ -52,5 +52,5 @@
   "type": "MULTI_SELECT_TREE_WIDGET",
   "version": 1,
   "widgetId": "ovfo3px4ut",
-  "widgetName": "MultiTreeSelect1Copy4Copy2"
+  "widgetName": "Powersupplyselect"
 }
