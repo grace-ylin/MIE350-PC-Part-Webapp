@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 63,
   "shouldTruncate": false,
-  "text": "Price: {{GetBuildById.data?.gpu?.price || \"\"}}",
+  "text": "Price: {{ GetBuildById.data?.gpu?.price ? Number(GetBuildById.data.gpu.price).toFixed(2) : \"\" }}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 1,

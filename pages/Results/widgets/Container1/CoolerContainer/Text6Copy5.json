@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 62,
   "shouldTruncate": false,
-  "text": "Price: {{GetBuildById.data?.cooler?.price || \"\"}}",
+  "text": "Price: {{ GetBuildById.data?.cooler?.price ? Number(GetBuildById.data.cooler.price).toFixed(2) : \"\" }}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 1,

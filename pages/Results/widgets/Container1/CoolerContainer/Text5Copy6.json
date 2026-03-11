@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 5,
+  "bottomRow": 6,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -33,8 +33,8 @@
   "mobileRightColumn": 38,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "originalBottomRow": 130,
-  "originalTopRow": 126,
+  "originalBottomRow": 5,
+  "originalTopRow": 1,
   "overflow": "NONE",
   "parentColumnSpace": 7.7197265625,
   "parentId": "eigpkfg9ty",
@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 44,
   "shouldTruncate": false,
-  "text": "Cooler: {{GetBuildById.data?.cooler?.model || \"\"}}",
+  "text": "Cooler: {{GetBuildById.data?.cooler?.model || \"No suitable cooler\"}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 1,

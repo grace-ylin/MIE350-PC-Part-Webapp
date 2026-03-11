@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 6,
+  "bottomRow": 7,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -33,7 +33,7 @@
   "mobileRightColumn": 64,
   "mobileTopRow": 2,
   "needsErrorInfo": false,
-  "originalBottomRow": 7,
+  "originalBottomRow": 6,
   "originalTopRow": 2,
   "overflow": "NONE",
   "parentColumnSpace": 7.7197265625,
@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 62,
   "shouldTruncate": false,
-  "text": "Price: {{GetBuildById.data?.storage?.price || \"\"}}",
+  "text": "Price: {{ GetBuildById.data?.storage?.price ? Number(GetBuildById.data.storage.price).toFixed(2) : \"\" }}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 2,

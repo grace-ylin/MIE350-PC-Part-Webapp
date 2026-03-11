@@ -3,7 +3,7 @@
   "alignWidget": "LEFT",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 12,
+  "bottomRow": 13,
   "defaultCheckedState": true,
   "dynamicBindingPathList": [
     {
@@ -31,7 +31,7 @@
   "mobileRightColumn": 61,
   "mobileTopRow": 5,
   "needsErrorInfo": false,
-  "originalBottomRow": 16,
+  "originalBottomRow": 12,
   "originalTopRow": 8,
   "parentColumnSpace": 7.34375,
   "parentId": "eigpkfg9ty",
@@ -39,7 +39,7 @@
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
   "rightColumn": 30,
-  "topRow": 8,
+  "topRow": 9,
   "type": "CHECKBOX_WIDGET",
   "version": 1,
   "widgetId": "l5mxghcsor",

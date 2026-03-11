@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 44,
   "shouldTruncate": false,
-  "text": "CPU: {{GetBuildById.data?.cpu?.model || \"\"}}",
+  "text": "CPU: {{GetBuildById.data?.cpu?.model || \"No suitable CPU\"}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 2,
