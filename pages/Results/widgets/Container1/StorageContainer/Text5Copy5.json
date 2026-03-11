@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 9,
+  "bottomRow": 7,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -33,7 +33,7 @@
   "mobileRightColumn": 38,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "originalBottomRow": 9,
+  "originalBottomRow": 7,
   "originalTopRow": 2,
   "overflow": "NONE",
   "parentColumnSpace": 7.7197265625,
@@ -41,7 +41,8 @@
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 44,
+  "rightColumn": 48,
+  "shouldScrollContents": true,
   "shouldTruncate": false,
   "text": "Storage: {{GetBuildById.data?.storage?.model || \"No suitable storage\"}}",
   "textAlign": "LEFT",
