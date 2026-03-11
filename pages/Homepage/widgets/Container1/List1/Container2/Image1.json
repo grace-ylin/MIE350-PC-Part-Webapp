@@ -1,7 +1,7 @@
 {
-  "animateLoading": true,
+  "animateLoading": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 25,
+  "bottomRow": 27,
   "boxShadow": "none",
   "defaultImage": "{{currentItem.preview_image_url}}",
   "dynamicBindingPathList": [
@@ -28,7 +28,7 @@
   "enableDownload": false,
   "enableRotation": false,
   "flexVerticalAlignment": "start",
-  "image": "{{currentItem.img}}",
+  "image": "{{ currentItem.image_url || \"https://assets.corsair.com/image/upload/f_auto/q_auto/v1741628829/products/Systems/a7500/CS-9050135-NA/CORSAIR_VENGEANCE_a7500_NAUTILUS_RENDER_01.png\" }}",
   "imageShape": "RECTANGLE",
   "isLoading": false,
   "isVisible": true,
@@ -42,12 +42,12 @@
   "needsErrorInfo": false,
   "objectFit": "cover",
   "onClick": "{{\nstoreValue(\"selectedBuildId\", currentItem.id);\nnavigateTo(\"Results\");\n}}",
-  "parentId": "rle056kcx4",
+  "parentId": "j043dowxpx",
   "renderMode": "CANVAS",
   "rightColumn": 31,
   "topRow": 0,
   "type": "IMAGE_WIDGET",
   "version": 1,
-  "widgetId": "itahe4wj8d",
+  "widgetId": "poro4iti3e",
   "widgetName": "Image1"
 }

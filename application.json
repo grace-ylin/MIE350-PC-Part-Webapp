@@ -14,10 +14,6 @@
       "isDefault": false
     },
     {
-      "id": "Homepage",
-      "isDefault": false
-    },
-    {
       "id": "Login",
       "isDefault": false
     },
@@ -27,6 +23,10 @@
     },
     {
       "id": "Settings",
+      "isDefault": false
+    },
+    {
+      "id": "Homepage",
       "isDefault": false
     }
   ]

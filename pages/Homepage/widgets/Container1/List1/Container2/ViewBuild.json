@@ -39,7 +39,7 @@
   "needsErrorInfo": false,
   "onClick": "{{\nstoreValue(\"selectedBuildId\", currentItem.id);\nnavigateTo(\"Results\");\n}}",
   "parentColumnSpace": 8.12890625,
-  "parentId": "rle056kcx4",
+  "parentId": "j043dowxpx",
   "parentRowSpace": 10,
   "placement": "CENTER",
   "recaptchaType": "V3",
@@ -51,6 +51,6 @@
   "topRow": 21,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "hnbel9no2j",
+  "widgetId": "zzawjo7elm",
   "widgetName": "ViewBuild"
 }

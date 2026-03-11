@@ -11,6 +11,9 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "text"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -32,19 +35,19 @@
   "needsErrorInfo": false,
   "overflow": "NONE",
   "parentColumnSpace": 8.12890625,
-  "parentId": "rle056kcx4",
+  "parentId": "j043dowxpx",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
   "rightColumn": 48,
   "shouldTruncate": false,
-  "text": "",
+  "text": "Created {{ new Date(currentItem.createdAt).toLocaleDateString(\"en-US\", { month: \"short\", day: \"numeric\", year: \"numeric\" }) }}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 21,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "ingrshw48q",
+  "widgetId": "48kasx4h1x",
   "widgetName": "Text5"
 }

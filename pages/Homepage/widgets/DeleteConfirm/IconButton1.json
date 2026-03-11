@@ -4,7 +4,7 @@
   "bottomRow": 4,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-  "buttonVariant": "PRIMARY",
+  "buttonVariant": "TERTIARY",
   "dynamicBindingPathList": [
     {
       "key": "buttonColor"
@@ -13,39 +13,32 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicHeight": "FIXED",
-  "dynamicPropertyPathList": [
-    {
-      "key": "onClick"
-    }
-  ],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
     }
   ],
-  "iconName": "trash",
+  "iconName": "cross",
+  "iconSize": 24,
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "cm13hty70n",
-  "leftColumn": 60,
+  "key": "bcrtgbefv7",
+  "leftColumn": 58,
   "minWidth": 50,
-  "mobileBottomRow": 30,
-  "mobileLeftColumn": 7,
-  "mobileRightColumn": 11,
-  "mobileTopRow": 26,
+  "mobileBottomRow": 4,
+  "mobileLeftColumn": 58,
+  "mobileRightColumn": 64,
+  "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "onClick": "{{\nshowAlert(\"Deleting build...\", \"info\");\nMock.deleteBuild(currentItem.id)\n}}",
-  "parentColumnSpace": 12.75,
-  "parentId": "rle056kcx4",
-  "parentRowSpace": 10,
+  "onClick": "{{closeModal(DeleteConfirm.name);}}",
+  "parentId": "zck16o0mh9",
   "renderMode": "CANVAS",
   "responsiveBehavior": "hug",
-  "rightColumn": 62,
+  "rightColumn": 64,
   "topRow": 0,
   "type": "ICON_BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "0rhozsfi9d",
+  "widgetId": "x3en5vmkhq",
   "widgetName": "IconButton1"
 }

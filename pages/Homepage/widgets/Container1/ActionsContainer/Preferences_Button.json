@@ -1,19 +1,14 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 16,
+  "bottomRow": 11,
   "boxShadow": "none",
-  "buttonColor": "#d5e2eb",
+  "buttonColor": "#553de9",
   "buttonVariant": "PRIMARY",
   "disabledWhenInvalid": false,
   "dynamicBindingPathList": [
     {
       "key": "borderRadius"
-    }
-  ],
-  "dynamicPropertyPathList": [
-    {
-      "key": "onClick"
     }
   ],
   "dynamicTriggerPathList": [
@@ -26,27 +21,29 @@
   "isLoading": false,
   "isVisible": true,
   "key": "egacmaafa5",
-  "leftColumn": 2,
+  "leftColumn": 6,
   "minWidth": 120,
-  "mobileBottomRow": 14,
-  "mobileLeftColumn": 2,
-  "mobileRightColumn": 18,
-  "mobileTopRow": 10,
+  "mobileBottomRow": 9,
+  "mobileLeftColumn": 5,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 5,
   "needsErrorInfo": false,
-  "onClick": "{{\nappsmith.store.savedPreference?.id\n  ? CreateBuild.run(() => {\n      storeValue(\"selectedBuildId\", CreateBuild.data.id);\n      GetAllBuilds.run();\n      navigateTo(\"Results\");\n    })\n  : showAlert(\"No saved preference found. Please save preferences first.\", \"error\")\n}}",
+  "onClick": "{{navigateTo('Preferences', {}, 'SAME_WINDOW');}}",
+  "originalBottomRow": 14,
+  "originalTopRow": 8,
   "parentColumnSpace": 12.75,
-  "parentId": "cj7c731y0j",
+  "parentId": "c32fpql19k",
   "parentRowSpace": 10,
   "placement": "CENTER",
   "recaptchaType": "V3",
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 14,
-  "text": "Click to \nGenerate New Build",
-  "topRow": 12,
+  "rightColumn": 58,
+  "text": "Input New Preferences",
+  "topRow": 5,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "bhvv9bncw7",
-  "widgetName": "GenerateBuild_Button"
+  "widgetId": "qwgju9ndnd",
+  "widgetName": "Preferences_Button"
 }

@@ -16,8 +16,8 @@
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
-  "fontFamily": "Nunito Sans",
-  "fontSize": "1rem",
+  "fontFamily": "System Default",
+  "fontSize": "1.25rem",
   "fontStyle": "BOLD",
   "isLoading": false,
   "isVisible": true,
@@ -35,7 +35,7 @@
   "originalTopRow": 0,
   "overflow": "NONE",
   "parentColumnSpace": 12.75,
-  "parentId": "cj7c731y0j",
+  "parentId": "00pnunk1zk",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
@@ -48,6 +48,6 @@
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "8yhhu5fnr0",
+  "widgetId": "d9m69egmf1",
   "widgetName": "Text1"
 }

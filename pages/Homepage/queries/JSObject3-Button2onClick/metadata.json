@@ -1,5 +1,5 @@
 {
-  "gitSyncId": "69a9ccbceb26037d8a9f9a00_8248039f-9ac5-47c8-b6c1-f62880b56fdb",
+  "gitSyncId": "69b1b33eb387763859c839de_699a2998-1dea-47de-8c62-e773dcff9051",
   "id": "Homepage_JSObject3.Button2onClick",
   "pluginId": "js-plugin",
   "pluginType": "JS",
@@ -10,7 +10,6 @@
       "paginationType": "NONE",
       "timeoutInMillisecond": 10000
     },
-    "clientSideExecution": true,
     "collectionId": "Homepage_JSObject3",
     "confirmBeforeExecute": false,
     "datasource": {

@@ -7,14 +7,14 @@
     "metaWidgetId"
   ],
   "animateLoading": true,
-  "backgroundColor": "transparent",
+  "backgroundColor": "#ffffff",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 64,
+  "bottomRow": 68,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 590,
+      "bottomRow": 630,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -46,7 +46,7 @@
       "noPad": true,
       "openParentPropertyPane": true,
       "parentColumnSpace": 1,
-      "parentId": "rtnb1yr46w",
+      "parentId": "vfnfqdj8z6",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
@@ -54,7 +54,7 @@
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "xa1qbdt453",
+      "widgetId": "imqctc5fgf",
       "widgetName": "Canvas2"
     }
   ],
@@ -85,6 +85,11 @@
       "key": "listData"
     }
   ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
   "dynamicTriggerPathList": [],
   "enhancements": true,
   "flexVerticalAlignment": "start",
@@ -92,14 +97,14 @@
   "hasMetaWidgets": true,
   "isCanvas": true,
   "isLoading": false,
-  "isVisible": true,
+  "isVisible": "true",
   "itemBackgroundColor": "#FFFFFF",
   "itemSpacing": 8,
   "key": "rn585xeyyd",
   "leftColumn": 18,
   "listData": "{{GetAllBuilds.data || []}}",
-  "mainCanvasId": "xa1qbdt453",
-  "mainContainerId": "k74oksviwl",
+  "mainCanvasId": "imqctc5fgf",
+  "mainContainerId": "bwp4z9djq3",
   "minWidth": 450,
   "mobileBottomRow": 47,
   "mobileLeftColumn": 38,
@@ -110,7 +115,7 @@
   "originalTopRow": 5,
   "pageSize": 2,
   "parentColumnSpace": 12.75,
-  "parentId": "cj7c731y0j",
+  "parentId": "00pnunk1zk",
   "parentRowSpace": 10,
   "primaryKeys": "{{List1.listData.map((currentItem, currentIndex) => currentItem[\"id\"] )}}",
   "renderMode": "CANVAS",
@@ -118,10 +123,11 @@
   "responsiveBehavior": "fill",
   "rightColumn": 63,
   "selectedItemView": "{{{}}}",
+  "serverSidePagination": false,
   "templateHeight": 160,
   "topRow": 5,
   "triggeredItemView": "{{{}}}",
   "type": "LIST_WIDGET_V2",
-  "widgetId": "rtnb1yr46w",
+  "widgetId": "vfnfqdj8z6",
   "widgetName": "List1"
 }

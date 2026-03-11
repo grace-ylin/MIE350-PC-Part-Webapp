@@ -1,0 +1,54 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 18,
+  "boxShadow": "none",
+  "buttonColor": "#553de9",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "egacmaafa5",
+  "leftColumn": 6,
+  "minWidth": 120,
+  "mobileBottomRow": 14,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 18,
+  "mobileTopRow": 10,
+  "needsErrorInfo": false,
+  "onClick": "{{\nappsmith.store.savedPreference?.id\n  ? CreateBuild.run(() => {\n      storeValue(\"selectedBuildId\", CreateBuild.data.id);\n      GetAllBuilds.run();\n      navigateTo(\"Results\");\n    })\n  : showAlert(\"No saved preference found. Please save preferences first.\", \"error\")\n}}",
+  "originalBottomRow": 20,
+  "originalTopRow": 14,
+  "parentColumnSpace": 12.75,
+  "parentId": "c32fpql19k",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 58,
+  "text": "Click to \nGenerate New Build",
+  "topRow": 12,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "rvqikuc790",
+  "widgetName": "GenerateBuild_Button"
+}
