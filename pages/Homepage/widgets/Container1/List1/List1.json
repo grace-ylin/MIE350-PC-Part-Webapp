@@ -97,7 +97,7 @@
   "itemSpacing": 8,
   "key": "rn585xeyyd",
   "leftColumn": 18,
-  "listData": "{{Mock.getSavedBuilds()}}",
+  "listData": "{{GetAllBuilds.data || []}}",
   "mainCanvasId": "xa1qbdt453",
   "mainContainerId": "k74oksviwl",
   "minWidth": 450,

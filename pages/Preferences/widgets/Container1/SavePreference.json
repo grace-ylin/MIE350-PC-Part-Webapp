@@ -33,7 +33,7 @@
   "mobileRightColumn": 62,
   "mobileTopRow": 29,
   "needsErrorInfo": false,
-  "onClick": "{{\nCreatePreference.run(() => {\n  storeValue(\"savedPreference\", CreatePreference.data);\n  navigateTo(\"Homepage\");\n})\n}}",
+  "onClick": "{{\nstoreValue(\"buildTitle\", BuildTitle.text || \"My First Build\");\nCreatePreference.run(() => {\n  storeValue(\"savedPreference\", CreatePreference.data);\n  navigateTo(\"Homepage\");\n})\n}}",
   "originalBottomRow": 72,
   "originalTopRow": 68,
   "parentColumnSpace": 11.7294921875,

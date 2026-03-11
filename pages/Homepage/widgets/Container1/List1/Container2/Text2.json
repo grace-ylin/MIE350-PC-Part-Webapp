@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 57,
   "shouldTruncate": false,
-  "text": "{{currentItem.title}}",
+  "text": "{{currentItem.buildTitle || \"Recommended Build\"}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "textStyle": "HEADING",

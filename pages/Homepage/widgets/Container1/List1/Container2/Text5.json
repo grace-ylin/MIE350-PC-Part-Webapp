@@ -11,9 +11,6 @@
     },
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "text"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -41,7 +38,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 48,
   "shouldTruncate": false,
-  "text": "{{\"Created \" + currentItem.created_at}}",
+  "text": "",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 21,

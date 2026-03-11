@@ -41,7 +41,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 61,
   "shouldTruncate": false,
-  "text": "{{currentItem.highlight_1 + \" • \" + currentItem.highlight_2 + \" • \" + currentItem.highlight_3}}",
+  "text": "{{\n[\n  currentItem.cpu?.model,\n  currentItem.gpu?.model,\n  currentItem.ram?.model\n].filter(Boolean).join(\" • \")\n}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 8,

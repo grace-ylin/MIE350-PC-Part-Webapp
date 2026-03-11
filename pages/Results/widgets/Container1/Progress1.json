@@ -8,6 +8,9 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "progress"
     }
   ],
   "dynamicTriggerPathList": [],
@@ -26,7 +29,7 @@
   "parentColumnSpace": 17.5,
   "parentId": "pe4w02h8t1",
   "parentRowSpace": 10,
-  "progress": "100",
+  "progress": "{{\nMath.round(\n  (\n    (CPUCheck.isChecked ? 1 : 0) +\n    (GPUCheck.isChecked ? 1 : 0) +\n    (MotherboardCheck.isChecked ? 1 : 0) +\n    (RamCheck.isChecked ? 1 : 0) +\n    (PSUCheck.isChecked ? 1 : 0) +\n    (CaseCheck.isChecked ? 1 : 0) +\n    (StorageCheck.isChecked ? 1 : 0) +\n    (CoolerCheck.isChecked ? 1 : 0)\n  ) / 8 * 100\n)\n}}",
   "progressType": "linear",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",

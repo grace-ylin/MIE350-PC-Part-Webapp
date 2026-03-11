@@ -41,7 +41,7 @@
   "mobileTopRow": 0,
   "needsErrorInfo": false,
   "objectFit": "cover",
-  "onClick": "{{Mock.selectBuild(currentItem)}}",
+  "onClick": "{{\nstoreValue(\"selectedBuildId\", currentItem.id);\nnavigateTo(\"Results\");\n}}",
   "parentId": "rle056kcx4",
   "renderMode": "CANVAS",
   "rightColumn": 31,
