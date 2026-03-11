@@ -63,7 +63,7 @@
       "isDisabled": false,
       "isVisible": true,
       "label": "Settings",
-      "onClick": "{{navigateTo('Account Settings', {}, 'SAME_WINDOW');}}",
+      "onClick": "{{navigateTo('Settings', {}, 'SAME_WINDOW');}}",
       "widgetId": "12w5j4tdck"
     }
   },

@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 16,
+  "bottomRow": 10,
   "boxShadow": "none",
   "buttonColor": "#d5e2eb",
   "buttonVariant": "PRIMARY",
@@ -9,11 +9,6 @@
   "dynamicBindingPathList": [
     {
       "key": "borderRadius"
-    }
-  ],
-  "dynamicPropertyPathList": [
-    {
-      "key": "onClick"
     }
   ],
   "dynamicTriggerPathList": [
@@ -28,12 +23,12 @@
   "key": "egacmaafa5",
   "leftColumn": 2,
   "minWidth": 120,
-  "mobileBottomRow": 14,
-  "mobileLeftColumn": 2,
-  "mobileRightColumn": 18,
-  "mobileTopRow": 10,
+  "mobileBottomRow": 9,
+  "mobileLeftColumn": 5,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 5,
   "needsErrorInfo": false,
-  "onClick": "{{\nappsmith.store.savedPreference?.id\n  ? CreateBuild.run(() => {\n      storeValue(\"selectedBuildId\", CreateBuild.data.id);\n      GetAllBuilds.run();\n      navigateTo(\"Results\");\n    })\n  : showAlert(\"No saved preference found. Please save preferences first.\", \"error\")\n}}",
+  "onClick": "{{JSObject1.Button1onClick();}}",
   "parentColumnSpace": 12.75,
   "parentId": "cj7c731y0j",
   "parentRowSpace": 10,
@@ -43,10 +38,10 @@
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
   "rightColumn": 14,
-  "text": "Generate New Build",
-  "topRow": 12,
+  "text": "Input Preferences",
+  "topRow": 6,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "bhvv9bncw7",
-  "widgetName": "Button2"
+  "widgetId": "snhqolbd77",
+  "widgetName": "Preferences_Button"
 }
