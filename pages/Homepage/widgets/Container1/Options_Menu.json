@@ -21,6 +21,11 @@
       "key": "borderRadius"
     }
   ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "menuItems.menuItembdyynrx488.onClick"
+    }
+  ],
   "dynamicTriggerPathList": [
     {
       "key": "menuItems.menuItem1.onClick"
@@ -63,7 +68,7 @@
       "isDisabled": false,
       "isVisible": true,
       "label": "Settings",
-      "onClick": "{{navigateTo('Settings', {}, 'SAME_WINDOW');}}",
+      "onClick": "{{\n  appsmith.store.profileId\n    ? GetUserProfile.run().then(() => navigateTo(\"Settings\"))\n    : navigateTo(\"Login\")\n}}",
       "widgetId": "12w5j4tdck"
     }
   },

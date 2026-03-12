@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 21,
+  "bottomRow": 32,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
@@ -46,10 +46,10 @@
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
   "rightColumn": 64,
-  "text": "Update Name",
-  "topRow": 17,
+  "text": "Update Email",
+  "topRow": 28,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "venvjnkv8z",
-  "widgetName": "UpdateNameButton"
+  "widgetId": "c1c6hpwdxe",
+  "widgetName": "UpdateNameButtonCopy"
 }

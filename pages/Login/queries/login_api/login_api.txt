@@ -1,4 +1,0 @@
-{
-	"email": "{{emaillogin.text}}",
-	"password": "{{passwordlogin.text}}"
-}
