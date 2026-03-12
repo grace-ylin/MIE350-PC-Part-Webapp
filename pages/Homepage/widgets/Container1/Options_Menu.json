@@ -15,15 +15,15 @@
   },
   "dynamicBindingPathList": [
     {
-      "key": "menuColor"
-    },
-    {
       "key": "borderRadius"
     }
   ],
   "dynamicPropertyPathList": [
     {
       "key": "menuItems.menuItembdyynrx488.onClick"
+    },
+    {
+      "key": "menuItems.menuItem2.onClick"
     }
   ],
   "dynamicTriggerPathList": [
@@ -32,6 +32,9 @@
     },
     {
       "key": "menuItems.menuItembdyynrx488.onClick"
+    },
+    {
+      "key": "menuItems.menuItem2.onClick"
     }
   ],
   "iconAlign": "left",
@@ -43,7 +46,7 @@
   "key": "e0zlkeu91r",
   "label": "",
   "leftColumn": 59,
-  "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+  "menuColor": "#1e3a8a",
   "menuItems": {
     "menuItem1": {
       "id": "menuItem1",
@@ -55,11 +58,15 @@
       "widgetId": ""
     },
     "menuItem2": {
+      "backgroundColor": "",
+      "iconAlign": "left",
+      "iconColor": "#1e3a8a",
       "id": "menuItem2",
       "index": 2,
       "isDisabled": false,
       "isVisible": true,
       "label": "Sign Out",
+      "onClick": "{{\n  storeValue(\"profileId\", null);\n  showAlert(\"Logged out\", \"success\");\n  navigateTo(\"Login\");\n}}",
       "widgetId": ""
     },
     "menuItembdyynrx488": {

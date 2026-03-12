@@ -3,12 +3,9 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 4,
   "boxShadow": "none",
-  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonColor": "#1e3a8a",
   "buttonVariant": "TERTIARY",
   "dynamicBindingPathList": [
-    {
-      "key": "buttonColor"
-    },
     {
       "key": "borderRadius"
     }
@@ -40,5 +37,5 @@
   "type": "ICON_BUTTON_WIDGET",
   "version": 1,
   "widgetId": "x3en5vmkhq",
-  "widgetName": "IconButton1"
+  "widgetName": "ExitDeleteMessage"
 }

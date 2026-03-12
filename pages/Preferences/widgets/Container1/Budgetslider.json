@@ -1,13 +1,9 @@
 {
-  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "accentColor": "#1e3a8a",
   "animateLoading": true,
   "bottomRow": 11,
   "defaultValue": 10,
-  "dynamicBindingPathList": [
-    {
-      "key": "accentColor"
-    }
-  ],
+  "dynamicBindingPathList": [],
   "dynamicTriggerPathList": [],
   "isDisabled": false,
   "isLoading": false,

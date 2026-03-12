@@ -4,9 +4,6 @@
   "counterClosewise": false,
   "dynamicBindingPathList": [
     {
-      "key": "fillColor"
-    },
-    {
       "key": "borderRadius"
     },
     {
@@ -14,7 +11,7 @@
     }
   ],
   "dynamicTriggerPathList": [],
-  "fillColor": "{{appsmith.theme.colors.primaryColor}}",
+  "fillColor": "#1e3a8a",
   "isCanvas": false,
   "isIndeterminate": false,
   "isLoading": false,

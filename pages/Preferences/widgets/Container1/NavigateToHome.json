@@ -3,12 +3,9 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 6,
   "boxShadow": "none",
-  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonColor": "#1e3a8a",
   "buttonVariant": "PRIMARY",
   "dynamicBindingPathList": [
-    {
-      "key": "buttonColor"
-    },
     {
       "key": "borderRadius"
     }
@@ -43,5 +40,5 @@
   "type": "ICON_BUTTON_WIDGET",
   "version": 1,
   "widgetId": "fuv2fwhtpw",
-  "widgetName": "IconButton2Copy"
+  "widgetName": "NavigateToHome"
 }

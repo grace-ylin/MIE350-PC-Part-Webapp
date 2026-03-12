@@ -1,14 +1,11 @@
 {
-  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "accentColor": "#1e3a8a",
   "alignWidget": "LEFT",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 13,
   "defaultCheckedState": true,
   "dynamicBindingPathList": [
-    {
-      "key": "accentColor"
-    },
     {
       "key": "borderRadius"
     }

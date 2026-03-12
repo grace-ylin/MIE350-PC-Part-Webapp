@@ -3,14 +3,11 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 21,
   "boxShadow": "none",
-  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonColor": "#1e3a8a",
   "buttonStyle": "PRIMARY",
   "buttonVariant": "SECONDARY",
   "disabledWhenInvalid": false,
   "dynamicBindingPathList": [
-    {
-      "key": "buttonColor"
-    },
     {
       "key": "borderRadius"
     }
@@ -47,5 +44,5 @@
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "j8fyff71yb",
-  "widgetName": "Button1"
+  "widgetName": "CloseDeleteMessage"
 }

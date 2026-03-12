@@ -15,9 +15,6 @@
   },
   "dynamicBindingPathList": [
     {
-      "key": "menuColor"
-    },
-    {
       "key": "borderRadius"
     }
   ],
@@ -43,7 +40,7 @@
   "key": "e0zlkeu91r",
   "label": "",
   "leftColumn": 60,
-  "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+  "menuColor": "#1e3a8a",
   "menuItems": {
     "menuItem1": {
       "id": "menuItem1",
@@ -55,6 +52,8 @@
       "widgetId": ""
     },
     "menuItem2": {
+      "backgroundColor": "",
+      "iconColor": "#1e3a8a",
       "id": "menuItem2",
       "index": 1,
       "isDisabled": false,
