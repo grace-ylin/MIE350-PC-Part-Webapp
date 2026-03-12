@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 5,
+  "bottomRow": 4,
   "boxShadow": "none",
   "configureMenuItems": {
     "config": {
@@ -21,12 +21,17 @@
       "key": "borderRadius"
     }
   ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "menuItems.menuItem2.onClick"
+    }
+  ],
   "dynamicTriggerPathList": [
     {
       "key": "menuItems.menuItem1.onClick"
     },
     {
-      "key": "menuItems.menuItembdyynrx488.onClick"
+      "key": "menuItems.menuItem2.onClick"
     }
   ],
   "iconAlign": "left",
@@ -42,7 +47,7 @@
   "menuItems": {
     "menuItem1": {
       "id": "menuItem1",
-      "index": 1,
+      "index": 0,
       "isDisabled": false,
       "isVisible": true,
       "label": "Preferences",
@@ -51,20 +56,12 @@
     },
     "menuItem2": {
       "id": "menuItem2",
-      "index": 2,
+      "index": 1,
       "isDisabled": false,
       "isVisible": true,
       "label": "Sign Out",
+      "onClick": "{{\n  storeValue(\"profileId\", null);\n  showAlert(\"Logged out\", \"success\");\n  navigateTo(\"Login\");\n}}",
       "widgetId": ""
-    },
-    "menuItembdyynrx488": {
-      "id": "menuItembdyynrx488",
-      "index": 0,
-      "isDisabled": false,
-      "isVisible": true,
-      "label": "Settings",
-      "onClick": "{{navigateTo('Account Settings', {}, 'SAME_WINDOW');}}",
-      "widgetId": "12w5j4tdck"
     }
   },
   "menuItemsSource": "STATIC",
@@ -83,7 +80,7 @@
   "renderMode": "CANVAS",
   "rightColumn": 64,
   "sourceData": "[]",
-  "topRow": 1,
+  "topRow": 0,
   "type": "MENU_BUTTON_WIDGET",
   "version": 1,
   "widgetId": "w4jdhbuvx6",

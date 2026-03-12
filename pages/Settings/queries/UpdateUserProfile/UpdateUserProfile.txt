@@ -1,0 +1,6 @@
+{
+  "email": {{ EmailInput.text }},
+  "password": {{ PasswordInput.text }},
+  "firstName": {{ FirstNameInput.text }},
+  "lastName": {{ LastNameInput.text }}
+}

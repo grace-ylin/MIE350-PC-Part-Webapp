@@ -1,3 +1,0 @@
-{
-  "buildTitle": "{{ appsmith.store.buildTitle || 'My First Build' }}"
-}

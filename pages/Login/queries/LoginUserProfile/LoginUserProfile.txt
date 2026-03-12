@@ -1,0 +1,4 @@
+{
+  "email": {{ emailloginCopy.text }},
+  "password": {{ passwordloginCopy.text }}
+}

@@ -1,4 +1,0 @@
-{
-	"email": "{{emailsignup.text}}",
-	"password": "{{confirmpasswordinput.text}}"
-}
