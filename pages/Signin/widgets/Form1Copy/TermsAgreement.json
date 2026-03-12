@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 17,
+  "bottomRow": 67,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -21,7 +21,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "64pxhv6cpf",
-  "leftColumn": 1,
+  "leftColumn": 4,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -30,23 +30,23 @@
   "mobileRightColumn": 17,
   "mobileTopRow": 4,
   "needsErrorInfo": false,
-  "originalBottomRow": 17,
-  "originalTopRow": 4,
+  "originalBottomRow": 67,
+  "originalTopRow": 63,
   "overflow": "NONE",
   "parentColumnSpace": 11.138671875,
   "parentId": "1psz66s5nf",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 30,
+  "rightColumn": 23,
   "shouldTruncate": false,
-  "text": "Password Requirements:\n- A special character\n- A numeric character\n- A minimum of 8 characters\n- An uppercase character\n- An alphabetic character\n- A lowercase character",
+  "text": "I agree to the terms of use.",
   "textAlign": "LEFT",
-  "textColor": "#71717a",
-  "topRow": 4,
+  "textColor": "#231f20",
+  "topRow": 63,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "1c8cjb2of8",
-  "widgetName": "Text2"
+  "widgetId": "6g38p6664g",
+  "widgetName": "TermsAgreement"
 }

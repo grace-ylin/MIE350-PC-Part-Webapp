@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 25,
+  "bottomRow": 15,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -28,10 +28,10 @@
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 16,
+  "mobileBottomRow": 12,
   "mobileLeftColumn": 30,
   "mobileRightColumn": 46,
-  "mobileTopRow": 12,
+  "mobileTopRow": 8,
   "needsErrorInfo": false,
   "overflow": "NONE",
   "parentColumnSpace": 8.12890625,
@@ -39,15 +39,15 @@
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 48,
+  "rightColumn": 61,
   "shouldTruncate": false,
-  "text": "Created {{ new Date(currentItem.createdAt).toLocaleDateString(\"en-US\", { month: \"short\", day: \"numeric\", year: \"numeric\" }) }}",
+  "text": "{{\n[\n  currentItem.cpu?.model,\n  currentItem.gpu?.model,\n  currentItem.ram?.model\n].filter(Boolean).join(\" • \")\n}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 21,
+  "topRow": 8,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "48kasx4h1x",
-  "widgetName": "Text5"
+  "widgetId": "ah4sz2re14",
+  "widgetName": "Highlights"
 }
