@@ -1,0 +1,5 @@
+{
+  "brand": "{{ EditBrandInput.text }}",
+  "model": "{{ EditModelInput.text }}",
+  "price": {{ Number(EditPriceInput.text) }},
+}

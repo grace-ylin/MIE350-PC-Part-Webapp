@@ -1,0 +1,5 @@
+{
+  "brand": "{{ EditBrandMotherboard.text }}",
+  "model": "{{ EditModelMotherboard.text }}",
+  "price": {{ Number(EditPriceMotherboard.text) }},
+}

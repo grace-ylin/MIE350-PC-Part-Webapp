@@ -42,7 +42,7 @@
   "shouldTruncate": false,
   "text": "Actions",
   "textAlign": "CENTER",
-  "textColor": "#231F20",
+  "textColor": "#231f20",
   "topRow": 1,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",

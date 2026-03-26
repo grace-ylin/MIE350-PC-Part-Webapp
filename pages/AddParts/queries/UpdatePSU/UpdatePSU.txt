@@ -1,0 +1,5 @@
+{
+  "brand": "{{ EditBrandPSU.text }}",
+  "model": "{{ EditModelPSU.text }}",
+  "price": {{ Number(EditPricePSU.text) }},
+}

@@ -1,0 +1,5 @@
+{
+  "brand": "{{ EditBrandCase.text }}",
+  "model": "{{ EditModelCase.text }}",
+  "price": {{ Number(EditPriceCase.text) }},
+}

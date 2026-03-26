@@ -1,0 +1,70 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 8,
+  "boxShadow": "none",
+  "defaultOptionValue": "GREEN",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "vpgwuicwp3",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "CPU",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 28,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 7,
+  "mobileLeftColumn": 26,
+  "mobileRightColumn": 46,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "onOptionChange": "{{\nCPUSelect.value\n  ? (\n      storeValue(\"selectedPartType\", \"cpu\"),\n      storeValue(\"selectedPartId\", CPUSelect.value),\n      GetCpuById.run()\n        .then(() => showModal(\"EditCPUModal\"))\n        .catch((err) => {\n          showAlert(\"Failed to load CPU details\", \"error\");\n          console.log(err);\n        })\n    )\n  : showAlert(\"Please select a CPU first\", \"warning\")\n}}",
+  "optionLabel": "label",
+  "optionValue": "value",
+  "parentColumnSpace": 7.7001953125,
+  "parentId": "1vrn33ru3v",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "serverSideFiltering": false,
+  "sourceData": "{{\n(GetCPU.data || []).map(cpu => ({\n  label: `${cpu.brand} ${cpu.model} — $${cpu.price}`,\n  value: cpu.id\n}))\n}}",
+  "topRow": 1,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "fatq5hzfx8",
+  "widgetName": "CPUSelect"
+}

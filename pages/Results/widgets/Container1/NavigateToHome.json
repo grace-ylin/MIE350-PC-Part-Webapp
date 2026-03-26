@@ -10,6 +10,7 @@
       "key": "borderRadius"
     }
   ],
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -27,7 +28,7 @@
   "mobileRightColumn": 24,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('Homepage', {}, 'SAME_WINDOW');}}",
+  "onClick": "{{navigateTo('Homepage', {}, 'SAME_WINDOW');\nnavigateTo(\"Homepage\");}}",
   "originalBottomRow": 62,
   "originalTopRow": 58,
   "parentColumnSpace": 19.5,

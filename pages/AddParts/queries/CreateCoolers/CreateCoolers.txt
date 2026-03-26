@@ -1,0 +1,5 @@
+{
+  "brand": "{{ AddBrandInput.text }}",
+  "model": "{{ AddModelInput.text }}",
+  "price": {{ Number(AddPriceInput.text) }}
+}

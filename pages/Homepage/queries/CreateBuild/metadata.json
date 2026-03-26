@@ -21,7 +21,7 @@
       "httpMethod": "POST",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/preferences/{{appsmith.store.savedPreference?.id}}/builds",
+      "path": "/profiles/{{appsmith.store.profileId}}/preferences/{{appsmith.store.preferenceId}}/builds",
       "pluginSpecifiedTemplates": [
         {
           "value": true

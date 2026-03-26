@@ -33,7 +33,7 @@
   "mobileRightColumn": 62,
   "mobileTopRow": 29,
   "needsErrorInfo": false,
-  "onClick": "{{\nstoreValue(\"buildTitle\", BuildTitle.text || \"My First Build\");\nCreatePreference.run(() => {\n  storeValue(\"savedPreference\", CreatePreference.data);\n  navigateTo(\"Homepage\");\n})\n}}",
+  "onClick": "{{\nstoreValue(\"buildTitle\", BuildTitle.text || \"My First Build\");\nCreatePreference.run()\n  .then((res) => {\n    storeValue(\"preferenceId\", res.id);\n    navigateTo(\"Homepage\");\n  })\n  .catch((err) => {\n    showAlert(\"Failed to save preferences\", \"error\");\n    console.log(err);\n  })\n}}",
   "originalBottomRow": 71,
   "originalTopRow": 67,
   "parentColumnSpace": 11.7294921875,

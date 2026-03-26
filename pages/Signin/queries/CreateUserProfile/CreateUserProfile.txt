@@ -2,5 +2,6 @@
   "email": {{ EmailInput.text }},
   "password": {{ createpasswordinput.text }},
   "firstName": {{ FirstNameInput.text }},
-  "lastName": {{ LastNameInput.text }}
+  "lastName": {{ LastNameInput.text }}, 
+	"isAdmin": {{ IsAdminSwitch.isSwitchedOn }}
 }

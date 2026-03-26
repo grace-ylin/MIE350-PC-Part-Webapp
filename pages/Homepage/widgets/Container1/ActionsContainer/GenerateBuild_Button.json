@@ -33,7 +33,7 @@
   "mobileRightColumn": 18,
   "mobileTopRow": 10,
   "needsErrorInfo": false,
-  "onClick": "{{\nappsmith.store.savedPreference?.id\n  ? CreateBuild.run(() => {\n      storeValue(\"selectedBuildId\", CreateBuild.data.id);\n      GetAllBuilds.run();\n      navigateTo(\"Results\");\n    })\n  : showAlert(\"No saved preference found. Please save preferences first.\", \"error\")\n}}",
+  "onClick": "{{\nappsmith.store.preferenceId\n  ? CreateBuild.run()\n      .then((res) => {\n        storeValue(\"selectedBuildId\", res.id);\n        GetAllBuilds.run();\n        navigateTo(\"Results\");\n      })\n      .catch((err) => {\n        showAlert(\"Failed to generate build\", \"error\");\n        console.log(err);\n      })\n  : showAlert(\"No saved preference found. Please save preferences first.\", \"error\")\n}}",
   "originalBottomRow": 20,
   "originalTopRow": 14,
   "parentColumnSpace": 12.75,

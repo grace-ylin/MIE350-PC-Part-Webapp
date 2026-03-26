@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n  \"email\": {{ EmailInput.text }},\n  \"password\": {{ createpasswordinput.text }},\n  \"firstName\": {{ FirstNameInput.text }},\n  \"lastName\": {{ LastNameInput.text }}\n}",
+      "body": "{\n  \"email\": {{ EmailInput.text }},\n  \"password\": {{ createpasswordinput.text }},\n  \"firstName\": {{ FirstNameInput.text }},\n  \"lastName\": {{ LastNameInput.text }}, \n\t\"isAdmin\": {{ IsAdminSwitch.isSwitchedOn }}\n}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {

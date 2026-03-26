@@ -21,7 +21,7 @@
       "httpMethod": "POST",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/preferences\n",
+      "path": "/profiles/{{appsmith.store.profileId}}/preferences\n",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -40,6 +40,9 @@
     "dynamicBindingPathList": [
       {
         "key": "body"
+      },
+      {
+        "key": "path"
       }
     ],
     "name": "CreatePreference",

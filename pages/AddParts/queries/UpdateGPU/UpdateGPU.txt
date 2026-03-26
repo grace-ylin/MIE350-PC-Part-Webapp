@@ -1,0 +1,5 @@
+{
+  "brand": "{{ EditBrandGPU.text }}",
+  "model": "{{ EditModelGPU.text }}",
+  "price": {{ Number(EditPriceGPU.text) }},
+}

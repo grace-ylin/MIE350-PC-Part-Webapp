@@ -41,7 +41,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 47,
   "shouldTruncate": false,
-  "text": "Motherboard: {{GetBuildById.data?.motherboard?.model || \"No suitable Motherboard\"}}",
+  "text": "Motherboard: {{GetBuildById.data?.motherboard?.model || \"No suitable motherboard\"}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 1,
