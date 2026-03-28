@@ -13,32 +13,37 @@
       "key": "borderRadius"
     }
   ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
     }
   ],
-  "iconName": "cross",
+  "iconName": "trash",
   "iconSize": 24,
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
   "key": "8fue3ekkc3",
-  "leftColumn": 58,
+  "leftColumn": 57,
   "minWidth": 50,
   "mobileBottomRow": 4,
   "mobileLeftColumn": 58,
   "mobileRightColumn": 64,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "onClick": "{{closeModal(EditPSUModal.name);}}",
-  "parentId": "5d6v76pnyc",
+  "onClick": "{{\nDeleteMotherboard.run()\n  .then(() => {\n    closeModal(\"EditMotherboardModal\");\n    GetMotherboard.run();\n    showAlert(\"Motherboard deleted successfully\", \"success\");\n    storeValue(\"selectedPartId\", null);\n  })\n  .catch((err) => {\n    showAlert(\"Failed to delete Motherboard\", \"error\");\n    console.log(err);\n  });\n}}",
+  "parentId": "q0lnwpvnel",
   "renderMode": "CANVAS",
   "responsiveBehavior": "hug",
-  "rightColumn": 64,
+  "rightColumn": 63,
   "topRow": 0,
   "type": "ICON_BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "t4o6dnyf3y",
-  "widgetName": "IconButton1Copy3"
+  "widgetId": "3ud9b58b5x",
+  "widgetName": "IconButton1Copy6Copy2Copy1"
 }

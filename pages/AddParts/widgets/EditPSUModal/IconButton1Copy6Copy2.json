@@ -13,12 +13,17 @@
       "key": "borderRadius"
     }
   ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
     }
   ],
-  "iconName": "cross",
+  "iconName": "trash",
   "iconSize": 24,
   "isDisabled": false,
   "isLoading": false,
@@ -31,14 +36,14 @@
   "mobileRightColumn": 64,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "onClick": "{{closeModal(EditMotherboardModal.name);}}",
-  "parentId": "q0lnwpvnel",
+  "onClick": "{{\nDeletePSU.run()\n  .then(() => {\n    closeModal(\"EditPSUModal\");\n    GetPSU.run();\n    showAlert(\"PSU deleted successfully\", \"success\");\n    storeValue(\"selectedPartId\", null);\n  })\n  .catch((err) => {\n    showAlert(\"Failed to delete PSU\", \"error\");\n    console.log(err);\n  });\n}}",
+  "parentId": "5d6v76pnyc",
   "renderMode": "CANVAS",
   "responsiveBehavior": "hug",
   "rightColumn": 64,
   "topRow": 0,
   "type": "ICON_BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "034sw70gk4",
-  "widgetName": "IconButton1Copy1"
+  "widgetId": "n19b8mmtc7",
+  "widgetName": "IconButton1Copy6Copy2"
 }

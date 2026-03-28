@@ -1,6 +1,6 @@
 {
   "gitSyncId": "69b1b33eb387763859c839de_59ce07e8-fe47-498d-b240-196a3be670f8",
-  "id": "AddParts_DeleteCoolers",
+  "id": "AddParts_DeleteCooler",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -42,7 +42,7 @@
         "key": "path"
       }
     ],
-    "name": "DeleteCoolers",
+    "name": "DeleteCooler",
     "pageId": "AddParts",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false

@@ -13,12 +13,17 @@
       "key": "borderRadius"
     }
   ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
     }
   ],
-  "iconName": "cross",
+  "iconName": "trash",
   "iconSize": 24,
   "isDisabled": false,
   "isLoading": false,
@@ -31,14 +36,14 @@
   "mobileRightColumn": 64,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "onClick": "{{closeModal(EditGPUModal.name);}}",
-  "parentId": "59v6oxuef9",
+  "onClick": "{{\nDeleteRam.run()\n  .then(() => {\n    closeModal(\"EditRamModal\");\n    GetRam.run();\n    showAlert(\"RAM deleted successfully\", \"success\");\n    storeValue(\"selectedPartId\", null);\n  })\n  .catch((err) => {\n    showAlert(\"Failed to delete RAM\", \"error\");\n    console.log(err);\n  });\n}}",
+  "parentId": "yoh4z0ws4w",
   "renderMode": "CANVAS",
   "responsiveBehavior": "hug",
   "rightColumn": 64,
   "topRow": 0,
   "type": "ICON_BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "e48d0sl6s9",
-  "widgetName": "IconButton1Copy"
+  "widgetId": "kbr7jq0wti",
+  "widgetName": "IconButton1Copy6Copy2Copy"
 }

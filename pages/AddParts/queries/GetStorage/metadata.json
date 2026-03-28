@@ -44,7 +44,7 @@
     "dynamicBindingPathList": [],
     "name": "GetStorage",
     "pageId": "AddParts",
-    "runBehaviour": "MANUAL",
+    "runBehaviour": "AUTOMATIC",
     "userSetOnLoad": false
   }
 }

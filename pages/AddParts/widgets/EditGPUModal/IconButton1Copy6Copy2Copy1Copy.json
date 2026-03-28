@@ -13,32 +13,37 @@
       "key": "borderRadius"
     }
   ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
     }
   ],
-  "iconName": "cross",
+  "iconName": "trash",
   "iconSize": 24,
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
   "key": "8fue3ekkc3",
-  "leftColumn": 58,
+  "leftColumn": 57,
   "minWidth": 50,
   "mobileBottomRow": 4,
   "mobileLeftColumn": 58,
   "mobileRightColumn": 64,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "onClick": "{{closeModal(EditStorageModal.name);}}",
-  "parentId": "tnjs8mjc6i",
+  "onClick": "{{\nDeleteGPU.run()\n  .then(() => {\n    closeModal(\"EditGPUModal\");\n    GetGPU.run();\n    showAlert(\"GPU deleted successfully\", \"success\");\n    storeValue(\"selectedPartId\", null);\n  })\n  .catch((err) => {\n    showAlert(\"Failed to delete GPU\", \"error\");\n    console.log(err);\n  });\n}}",
+  "parentId": "59v6oxuef9",
   "renderMode": "CANVAS",
   "responsiveBehavior": "hug",
-  "rightColumn": 64,
+  "rightColumn": 63,
   "topRow": 0,
   "type": "ICON_BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "jdzlsq4xl1",
-  "widgetName": "IconButton1Copy5"
+  "widgetId": "yw4ectl600",
+  "widgetName": "IconButton1Copy6Copy2Copy1Copy"
 }
