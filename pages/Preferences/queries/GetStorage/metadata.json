@@ -1,6 +1,6 @@
 {
   "gitSyncId": "69b044b1b387763859c83915_6c2f7155-b3e2-4d36-bcfb-24311d43fa3e",
-  "id": "AddParts_GetStorage",
+  "id": "Preferences_GetStorage",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -43,7 +43,7 @@
     },
     "dynamicBindingPathList": [],
     "name": "GetStorage",
-    "pageId": "AddParts",
+    "pageId": "Preferences",
     "runBehaviour": "AUTOMATIC",
     "userSetOnLoad": false
   }
