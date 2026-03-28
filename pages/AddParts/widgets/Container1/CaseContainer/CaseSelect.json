@@ -20,9 +20,16 @@
   "dynamicPropertyPathList": [
     {
       "key": "sourceData"
+    },
+    {
+      "key": "onOptionChange"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
   "isDisabled": false,
   "isFilterable": true,
   "isLoading": false,
@@ -43,6 +50,7 @@
   "mobileRightColumn": 46,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
+  "onOptionChange": "{{\nCaseSelect.value\n  ? (\n      storeValue(\"selectedPartType\", \"case\"),\n      storeValue(\"selectedPartId\", CaseSelect.value),\n      GetCaseById.run()\n        .then(() => showModal(\"EditCaseModal\"))\n        .catch((err) => {\n          showAlert(\"Failed to load Case details\", \"error\");\n          console.log(err);\n        })\n    )\n  : showAlert(\"Please select a Case first\", \"warning\")\n}}",
   "optionLabel": "label",
   "optionValue": "value",
   "originalBottomRow": 76,

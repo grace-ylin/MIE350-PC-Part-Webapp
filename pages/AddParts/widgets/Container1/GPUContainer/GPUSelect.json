@@ -20,9 +20,16 @@
   "dynamicPropertyPathList": [
     {
       "key": "sourceData"
+    },
+    {
+      "key": "onOptionChange"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
   "isDisabled": false,
   "isFilterable": true,
   "isLoading": false,
@@ -43,6 +50,7 @@
   "mobileRightColumn": 46,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
+  "onOptionChange": "{{\nGPUSelect.value\n  ? (\n      storeValue(\"selectedPartType\", \"gpu\"),\n      storeValue(\"selectedPartId\", GPUSelect.value),\n      GetGpuById.run()\n        .then(() => showModal(\"EditGPUModal\"))\n        .catch((err) => {\n          showAlert(\"Failed to load GPU details\", \"error\");\n          console.log(err);\n        })\n    )\n  : showAlert(\"Please select a GPU first\", \"warning\")\n}}",
   "optionLabel": "label",
   "optionValue": "value",
   "originalBottomRow": 76,

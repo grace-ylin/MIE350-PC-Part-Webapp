@@ -20,9 +20,16 @@
   "dynamicPropertyPathList": [
     {
       "key": "sourceData"
+    },
+    {
+      "key": "onOptionChange"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
   "isDisabled": false,
   "isFilterable": true,
   "isLoading": false,
@@ -43,6 +50,7 @@
   "mobileRightColumn": 46,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
+  "onOptionChange": "{{\nRamSelect.value\n  ? (\n      storeValue(\"selectedPartType\", \"ram\"),\n      storeValue(\"selectedPartId\", RamSelect.value),\n      GetRamById.run()\n        .then(() => showModal(\"EditRamModal\"))\n        .catch((err) => {\n          showAlert(\"Failed to load RAM details\", \"error\");\n          console.log(err);\n        })\n    )\n  : showAlert(\"Please select a RAM part first\", \"warning\")\n}}",
   "optionLabel": "label",
   "optionValue": "value",
   "originalBottomRow": 76,
