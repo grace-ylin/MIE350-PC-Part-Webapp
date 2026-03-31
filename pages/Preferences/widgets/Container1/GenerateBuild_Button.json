@@ -1,0 +1,54 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 86,
+  "boxShadow": "none",
+  "buttonColor": "#1e3a8a",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "egacmaafa5",
+  "leftColumn": 49,
+  "minWidth": 120,
+  "mobileBottomRow": 14,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 18,
+  "mobileTopRow": 10,
+  "needsErrorInfo": false,
+  "onClick": "CreatePreference.run()\n  .then((prefRes) => {\n    const preferenceId = prefRes?.id || prefRes?.data?.id;\n\n    if (!preferenceId) {\n      throw new Error(\"CreatePreference did not return a preference id\");\n    }\n\n    return storeValue(\"buildTitle\", BuildTitle.text || \"My First Build\")\n      .then(() => storeValue(\"preferenceId\", preferenceId))\n      .then(() =>\n        CreateBuild.run({\n          preferenceId: preferenceId\n        })\n      );\n  })\n  .then((buildRes) => {\n    const buildId = buildRes?.id || buildRes?.data?.id;\n\n    if (!buildId) {\n      throw new Error(\"CreateBuild did not return a build id\");\n    }\n\n    return storeValue(\"selectedBuildId\", buildId)\n      .then(() => GetAllBuilds.run())\n      .then(() => navigateTo(\"Results\"));\n  })\n  .catch((err) => {\n    showAlert(\"Failed to save preferences or generate build\", \"error\");\n    console.log(\"Combined save/build error:\", err);\n  })",
+  "originalBottomRow": 20,
+  "originalTopRow": 14,
+  "parentColumnSpace": 12.75,
+  "parentId": "7kjwmgguef",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 64,
+  "text": "Generate New Build",
+  "topRow": 82,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "y2ux4upc46",
+  "widgetName": "GenerateBuild_Button"
+}

@@ -9,7 +9,7 @@
   "evaluationVersion": 2,
   "pages": [
     {
-      "id": "Recommendation",
+      "id": "Results",
       "isDefault": false
     },
     {
@@ -21,7 +21,7 @@
       "isDefault": false
     },
     {
-      "id": "Create Account",
+      "id": "Signin",
       "isDefault": true
     },
     {
@@ -33,7 +33,7 @@
       "isDefault": false
     },
     {
-      "id": "Modify Parts",
+      "id": "AddParts",
       "isDefault": false
     }
   ],

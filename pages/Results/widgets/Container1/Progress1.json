@@ -1,0 +1,41 @@
+{
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 10,
+  "counterClosewise": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "progress"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fillColor": "#1e3a8a",
+  "isCanvas": false,
+  "isIndeterminate": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "b9par64psm",
+  "leftColumn": 18,
+  "mobileBottomRow": 9,
+  "mobileLeftColumn": 24,
+  "mobileRightColumn": 52,
+  "mobileTopRow": 5,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 17.5,
+  "parentId": "pe4w02h8t1",
+  "parentRowSpace": 10,
+  "progress": "{{\nMath.round(\n  (\n    (CPUCheck.isChecked ? 1 : 0) +\n    (GPUCheck.isChecked ? 1 : 0) +\n    (MotherboardCheck.isChecked ? 1 : 0) +\n    (RamCheck.isChecked ? 1 : 0) +\n    (PSUCheck.isChecked ? 1 : 0) +\n    (CaseCheck.isChecked ? 1 : 0) +\n    (StorageCheck.isChecked ? 1 : 0) +\n    (CoolerCheck.isChecked ? 1 : 0)\n  ) / 8 * 100\n)\n}}",
+  "progressType": "linear",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 46,
+  "showResult": true,
+  "steps": "8",
+  "topRow": 6,
+  "type": "PROGRESS_WIDGET",
+  "version": 1,
+  "widgetId": "0ust98t8s7",
+  "widgetName": "Progress1"
+}
