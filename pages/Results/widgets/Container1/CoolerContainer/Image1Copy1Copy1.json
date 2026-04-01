@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 14,
+  "bottomRow": 16,
   "boxShadow": "none",
   "defaultImage": "https://assets.appsmith.com/widgets/default.png",
   "dynamicBindingPathList": [
@@ -18,7 +18,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "s8ffvju7kp",
-  "leftColumn": 2,
+  "leftColumn": 1,
   "maxZoomLevel": 1,
   "mobileBottomRow": 15,
   "mobileLeftColumn": 10,

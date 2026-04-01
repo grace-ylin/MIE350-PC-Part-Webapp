@@ -14,7 +14,7 @@
   "labelPosition": "Top",
   "labelStyle": "BOLD",
   "labelText": "Maximum Budget",
-  "labelTextColor": "#18181b",
+  "labelTextColor": "#000000",
   "labelTextSize": "0.875rem",
   "labelWidth": 8,
   "leftColumn": 15,

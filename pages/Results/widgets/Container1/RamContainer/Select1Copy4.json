@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 13,
+  "bottomRow": 16,
   "boxShadow": "none",
   "defaultOptionValue": "",
   "dynamicBindingPathList": [
@@ -53,7 +53,7 @@
   "rightColumn": 61,
   "serverSideFiltering": false,
   "sourceData": "[\n  {\n    \"name\": \"🔥 High\",\n    \"code\": \"RED\"\n  },\n  {\n    \"name\": \"⚡ Medium\",\n    \"code\": \"GREEN\"\n  },\n  {\n    \"name\": \"❄️ Low\",\n    \"code\": \"BLUE\"\n  }\n]",
-  "topRow": 6,
+  "topRow": 9,
   "type": "SELECT_WIDGET",
   "version": 1,
   "widgetId": "0yere1z258",

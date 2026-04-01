@@ -39,7 +39,7 @@
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 47,
+  "rightColumn": 46,
   "shouldTruncate": false,
   "text": "Ram: {{GetBuildById.data?.ram?.model || \"No Suitable Ram\"}}",
   "textAlign": "LEFT",

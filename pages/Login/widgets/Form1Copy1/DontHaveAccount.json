@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 34,
+  "bottomRow": 50,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -30,20 +30,20 @@
   "mobileRightColumn": 39,
   "mobileTopRow": 26,
   "needsErrorInfo": false,
-  "originalBottomRow": 34,
-  "originalTopRow": 29,
+  "originalBottomRow": 50,
+  "originalTopRow": 45,
   "overflow": "NONE",
   "parentColumnSpace": 14.546875,
   "parentId": "v7ysjlcsz9",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 31,
+  "rightColumn": 32,
   "shouldTruncate": false,
   "text": "Don't have an account yet?",
   "textAlign": "CENTER",
   "textColor": "#231F20",
-  "topRow": 29,
+  "topRow": 45,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

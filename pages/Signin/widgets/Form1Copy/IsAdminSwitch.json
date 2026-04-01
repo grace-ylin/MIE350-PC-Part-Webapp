@@ -4,9 +4,14 @@
   "animateLoading": true,
   "bottomRow": 65,
   "boxShadow": "none",
-  "defaultSwitchState": true,
+  "defaultSwitchState": "false",
   "dynamicBindingPathList": [],
   "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "defaultSwitchState"
+    }
+  ],
   "dynamicTriggerPathList": [],
   "isDisabled": false,
   "isLoading": false,
@@ -15,7 +20,8 @@
   "label": "Admin?",
   "labelPosition": "Left",
   "labelStyle": "BOLD",
-  "leftColumn": 50,
+  "labelTextColor": "#18181b",
+  "leftColumn": 55,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "mobileBottomRow": 62,
@@ -23,8 +29,8 @@
   "mobileRightColumn": 13,
   "mobileTopRow": 58,
   "needsErrorInfo": false,
-  "originalBottomRow": 64,
-  "originalTopRow": 60,
+  "originalBottomRow": 65,
+  "originalTopRow": 61,
   "parentColumnSpace": 14.8583984375,
   "parentId": "1psz66s5nf",
   "parentRowSpace": 10,

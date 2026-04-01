@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 86,
+  "bottomRow": 88,
   "boxShadow": "none",
   "buttonColor": "#1e3a8a",
   "buttonVariant": "PRIMARY",
@@ -46,7 +46,7 @@
   "responsiveBehavior": "hug",
   "rightColumn": 64,
   "text": "Generate New Build",
-  "topRow": 82,
+  "topRow": 84,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "y2ux4upc46",

@@ -39,7 +39,7 @@
   "shouldTruncate": false,
   "text": "PC Build Preferences",
   "textAlign": "CENTER",
-  "textColor": "#231F20",
+  "textColor": "#000000",
   "topRow": 1,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
