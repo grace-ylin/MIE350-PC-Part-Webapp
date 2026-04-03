@@ -1,5 +1,7 @@
 {
   "brand": "{{ AddBrandInput.text }}",
   "model": "{{ AddModelInput.text }}",
-  "price": {{ Number(AddPriceInput.text) }}
+  "price": {{ Number(AddPriceInput.text) }}, 
+	"socket": {{ AddSocketInput.text }}, 
+	"cores": {{Number(AddSocketInput.text)}}
 }

@@ -1,5 +1,8 @@
 {
   "brand": "{{ AddBrandInput.text }}",
   "model": "{{ AddModelInput.text }}",
-  "price": {{ Number(AddPriceInput.text) }}
+  "price": {{ Number(AddPriceInput.text) }},
+  "type": "{{ AddCaseTypeInput.text }}",
+  "formFactor": "{{ AddFormfactorInput.text }}",
+  "maxGpuLengthMm": {{ Number(AddMaxGPULengthInput.text) }}
 }

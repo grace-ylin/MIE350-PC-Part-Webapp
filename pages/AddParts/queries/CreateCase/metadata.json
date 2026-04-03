@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n  \"brand\": \"{{ AddBrandInput.text }}\",\n  \"model\": \"{{ AddModelInput.text }}\",\n  \"price\": {{ Number(AddPriceInput.text) }}\n}",
+      "body": "{\n  \"brand\": \"{{ AddBrandInput.text }}\",\n  \"model\": \"{{ AddModelInput.text }}\",\n  \"price\": {{ Number(AddPriceInput.text) }},\n  \"type\": \"{{ AddCaseTypeInput.text }}\",\n  \"formFactor\": \"{{ AddFormfactorInput.text }}\",\n  \"maxGpuLengthMm\": {{ Number(AddMaxGPULengthInput.text) }}\n}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
