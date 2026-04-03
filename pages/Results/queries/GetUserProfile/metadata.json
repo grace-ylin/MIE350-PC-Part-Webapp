@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "69b1b33eb387763859c839de_498f0abf-6399-460f-b120-95916609b68e",
-  "id": "Homepage_GetUserProfile",
+  "gitSyncId": "69b24f17b387763859c83a42_c5f87401-3786-43c9-a0c0-d201134b8bd3",
+  "id": "Results_GetUserProfile",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -38,7 +38,7 @@
       }
     ],
     "name": "GetUserProfile",
-    "pageId": "Homepage",
+    "pageId": "Results",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
