@@ -20,7 +20,7 @@
   "leftColumn": 15,
   "marks": "[\n  {\n    \"label\": \"500\",\n    \"value\": 500\n  },\n  {\n    \"label\": \"1000\",\n    \"value\": 1000\n  },\n  {\n    \"label\": \"1500\",\n    \"value\": 1500\n  },\n  {\n    \"label\": \"2000\",\n    \"value\": 2000\n  },\n  {\n    \"label\": \"2500\",\n    \"value\": 2500\n  },\n  {\n    \"label\": \"3000\",\n    \"value\": 3000\n  },\n  {\n    \"label\": \"3500\",\n    \"value\": 3500\n  },\n  {\n    \"label\": \"4000\",\n    \"value\": 4000\n  },\n  {\n    \"label\": \"4500\",\n    \"value\": 4500\n  },\n  {\n    \"label\": \"5000\",\n    \"value\": 5000\n  }\n]",
   "max": "5000",
-  "min": 0,
+  "min": "700",
   "mobileBottomRow": 8,
   "mobileLeftColumn": 10,
   "mobileRightColumn": 50,
