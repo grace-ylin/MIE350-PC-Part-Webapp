@@ -50,12 +50,20 @@
       "iconAlign": "left",
       "iconColor": "#1e3a8a",
       "id": "menuItem2",
-      "index": 1,
+      "index": 2,
       "isDisabled": false,
       "isVisible": true,
       "label": "Sign Out",
       "onClick": "{{\n  storeValue(\"profileId\", null);\n  showAlert(\"Logged out\", \"success\");\n  navigateTo(\"Login\");\n}}",
       "widgetId": ""
+    },
+    "menuItem84x7htcsup": {
+      "id": "menuItem84x7htcsup",
+      "index": 1,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "About the Creators",
+      "widgetId": "0i2qv55blq"
     },
     "menuItembdyynrx488": {
       "id": "menuItembdyynrx488",

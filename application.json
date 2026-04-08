@@ -35,6 +35,10 @@
     {
       "id": "AddParts",
       "isDefault": false
+    },
+    {
+      "id": "AboutUs",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {
