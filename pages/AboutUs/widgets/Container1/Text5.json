@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 113,
+  "bottomRow": 108,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -30,8 +30,8 @@
   "mobileRightColumn": 17,
   "mobileTopRow": 48,
   "needsErrorInfo": false,
-  "originalBottomRow": 108,
-  "originalTopRow": 101,
+  "originalBottomRow": 113,
+  "originalTopRow": 104,
   "overflow": "NONE",
   "parentColumnSpace": 19.607421875,
   "parentId": "42m0dv3umz",
@@ -43,7 +43,7 @@
   "text": "PC building gives users greater control over performance, customization, and budget than buying a prebuilt system, but the process can be difficult to navigate. Users need to choose parts that match their goals, work together properly, and stay within budget, which makes the experience especially challenging for beginners [1]. To support this project, we also used an external PC parts dataset scraped from PCPartPicker, allowing the system to rely on realistic hardware data when generating recommendations and evaluating compatible builds [2].",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 104,
+  "topRow": 101,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
