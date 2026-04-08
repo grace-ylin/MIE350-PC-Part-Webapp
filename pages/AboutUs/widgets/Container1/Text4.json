@@ -7,21 +7,18 @@
       "key": "truncateButtonColor"
     },
     {
-      "key": "fontFamily"
-    },
-    {
       "key": "borderRadius"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
-  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontFamily": "System Default",
   "fontSize": "1rem",
   "fontStyle": "",
   "isLoading": false,
   "isVisible": true,
   "key": "euwpvu4l9i",
-  "leftColumn": 1,
+  "leftColumn": 2,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -30,7 +27,7 @@
   "mobileRightColumn": 17,
   "mobileTopRow": 9,
   "needsErrorInfo": false,
-  "originalBottomRow": 26,
+  "originalBottomRow": 14,
   "originalTopRow": 9,
   "overflow": "NONE",
   "parentColumnSpace": 19.607421875,
@@ -38,7 +35,7 @@
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 64,
+  "rightColumn": 62,
   "shouldTruncate": false,
   "text": "We are a team of Industrial Engineering students in MIE350 at the University of Toronto brought together by a shared interest in system design and building practical tools for real users. RigBuilder reflects our effort to apply those skills in a way that is collaborative, user-focused, and grounded in thoughtful design.",
   "textAlign": "LEFT",
