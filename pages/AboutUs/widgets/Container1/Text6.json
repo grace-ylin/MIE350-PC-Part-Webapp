@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 76,
+  "bottomRow": 84,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -17,7 +17,7 @@
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
   "fontSize": "1rem",
-  "fontStyle": "",
+  "fontStyle": "BOLD",
   "isLoading": false,
   "isVisible": true,
   "key": "euwpvu4l9i",
@@ -25,13 +25,13 @@
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 63,
+  "mobileBottomRow": 84,
   "mobileLeftColumn": 1,
   "mobileRightColumn": 17,
-  "mobileTopRow": 59,
+  "mobileTopRow": 80,
   "needsErrorInfo": false,
-  "originalBottomRow": 76,
-  "originalTopRow": 63,
+  "originalBottomRow": 87,
+  "originalTopRow": 80,
   "overflow": "NONE",
   "parentColumnSpace": 19.607421875,
   "parentId": "42m0dv3umz",
@@ -40,13 +40,13 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "shouldTruncate": false,
-  "text": "RigBuilder is an undergraduate term project developed for MIE350 at the University of Toronto. This application is not a commercial product and is intended solely for educational purposes.\n\nAny references to hardware manufacturers, retailers, or brand names within this application are for informational purposes only and do not imply any form of partnership, endorsement, or official association. Companies such as Intel, AMD, NVIDIA, ASUS, and Corsair are mentioned solely as examples of widely recognized industry entities. Component data displayed in RigBuilder is compiled from publicly available sources and is used strictly within an educational, non-commercial context.",
+  "text": "https://www.intel.com/content/www/us/en/gaming/resources/how-to-build-a-gaming-pc.html",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 63,
+  "topRow": 80,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "w7j1sfhfb3",
-  "widgetName": "DisclaimerMessage"
+  "widgetId": "xehwqye2cq",
+  "widgetName": "Text6"
 }

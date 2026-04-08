@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 52,
+  "bottomRow": 56,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -11,9 +11,6 @@
     },
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -33,20 +30,20 @@
   "mobileRightColumn": 17,
   "mobileTopRow": 48,
   "needsErrorInfo": false,
-  "originalBottomRow": 52,
-  "originalTopRow": 48,
+  "originalBottomRow": 68,
+  "originalTopRow": 61,
   "overflow": "NONE",
   "parentColumnSpace": 19.607421875,
   "parentId": "42m0dv3umz",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 17,
+  "rightColumn": 64,
   "shouldTruncate": false,
-  "text": "Hello {{appsmith.user.name || appsmith.user.email}}",
+  "text": "PC building gives users greater control over performance, customization, and budget than buying a prebuilt system, but the process can be difficult to navigate. Users need to choose parts that match their goals, work together properly, and stay within budget, which makes the experience especially challenging for beginners. It is also a meaningful topic because building a PC allows users to tailor a system to their specific needs instead of relying on a one-size-fits-all option [1].",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 48,
+  "topRow": 49,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
