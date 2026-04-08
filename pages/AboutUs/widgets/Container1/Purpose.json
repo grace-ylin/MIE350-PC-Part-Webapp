@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 40,
+  "bottomRow": 41,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -30,8 +30,8 @@
   "mobileRightColumn": 17,
   "mobileTopRow": 9,
   "needsErrorInfo": false,
-  "originalBottomRow": 40,
-  "originalTopRow": 21,
+  "originalBottomRow": 53,
+  "originalTopRow": 34,
   "overflow": "NONE",
   "parentColumnSpace": 19.607421875,
   "parentId": "42m0dv3umz",
@@ -43,7 +43,7 @@
   "text": "RigBuilder is a custom PC recommendation platform designed to simplify the process of building a high-performance computer. Instead of manually researching components and verifying compatibility, users can input their budget, intended use, and preferred brands to instantly generate a complete, optimized PC build.\n\nThe platform automatically selects compatible component, including CPU, GPU, motherboard, memory, storage, power supply, case, and cooling, while ensuring all parts work together and meet budget constraints. Users can save and manage multiple builds, compare configurations, and explore detailed specifications for each component.\n\nRigBuilder also includes an administrative interface that allows for real-time updates to the component database, ensuring recommendations remain accurate and up to date with the latest hardware. Whether you're a first-time builder or an experienced user, RigBuilder provides a streamlined, intuitive solution for designing custom PC builds with confidence.",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 21,
+  "topRow": 22,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
