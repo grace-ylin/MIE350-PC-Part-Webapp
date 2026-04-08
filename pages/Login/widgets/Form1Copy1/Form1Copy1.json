@@ -4,7 +4,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 99,
+  "bottomRow": 98,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
@@ -92,7 +92,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 63,
   "shouldScrollContents": false,
-  "topRow": 18,
+  "topRow": 17,
   "type": "FORM_WIDGET",
   "widgetId": "4qw97qvk3e",
   "widgetName": "Form1Copy1"
