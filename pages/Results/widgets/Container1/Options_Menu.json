@@ -32,6 +32,9 @@
     },
     {
       "key": "menuItems.menuItem2.onClick"
+    },
+    {
+      "key": "menuItems.menuItemc7u87ms97f.onClick"
     }
   ],
   "iconAlign": "left",
@@ -50,7 +53,7 @@
       "iconAlign": "left",
       "iconColor": "#1e3a8a",
       "id": "menuItem2",
-      "index": 1,
+      "index": 2,
       "isDisabled": false,
       "isVisible": true,
       "label": "Sign Out",
@@ -65,6 +68,15 @@
       "label": "Settings",
       "onClick": "{{\n  appsmith.store.profileId\n    ? GetUserProfile.run().then(() => navigateTo(\"Settings\"))\n    : navigateTo(\"Login\")\n}}",
       "widgetId": "12w5j4tdck"
+    },
+    "menuItemc7u87ms97f": {
+      "id": "menuItemc7u87ms97f",
+      "index": 1,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "About the Creators",
+      "onClick": "{{navigateTo('AboutUs', {}, 'SAME_WINDOW');}}",
+      "widgetId": "69l8d55ou5"
     }
   },
   "menuItemsSource": "STATIC",

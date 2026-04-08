@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 14,
+  "bottomRow": 20,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -27,8 +27,8 @@
   "mobileRightColumn": 17,
   "mobileTopRow": 9,
   "needsErrorInfo": false,
-  "originalBottomRow": 14,
-  "originalTopRow": 9,
+  "originalBottomRow": 20,
+  "originalTopRow": 15,
   "overflow": "NONE",
   "parentColumnSpace": 19.607421875,
   "parentId": "42m0dv3umz",
@@ -40,7 +40,7 @@
   "text": "We are a team of Industrial Engineering students in MIE350 at the University of Toronto brought together by a shared interest in system design and building practical tools for real users. RigBuilder reflects our effort to apply those skills in a way that is collaborative, user-focused, and grounded in thoughtful design.",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 9,
+  "topRow": 15,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

@@ -29,6 +29,9 @@
     },
     {
       "key": "menuItems.menuItem2.onClick"
+    },
+    {
+      "key": "menuItems.menuItemagaore97pk.onClick"
     }
   ],
   "iconAlign": "left",
@@ -55,12 +58,21 @@
       "backgroundColor": "",
       "iconColor": "#1e3a8a",
       "id": "menuItem2",
-      "index": 1,
+      "index": 2,
       "isDisabled": false,
       "isVisible": true,
       "label": "Sign Out",
       "onClick": "{{\n  storeValue(\"profileId\", null);\n  showAlert(\"Logged out\", \"success\");\n  navigateTo(\"Login\");\n}}",
       "widgetId": ""
+    },
+    "menuItemagaore97pk": {
+      "id": "menuItemagaore97pk",
+      "index": 1,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "About the Creators",
+      "onClick": "{{navigateTo('AboutUs', {}, 'SAME_WINDOW');}}",
+      "widgetId": "3te7qbaqdh"
     }
   },
   "menuItemsSource": "STATIC",

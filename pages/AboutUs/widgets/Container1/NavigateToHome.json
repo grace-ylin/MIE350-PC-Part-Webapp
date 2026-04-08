@@ -1,0 +1,44 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 8,
+  "boxShadow": "none",
+  "buttonColor": "#1e3a8a",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconName": "home",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "odo4kr058f",
+  "leftColumn": 2,
+  "minWidth": 50,
+  "mobileBottomRow": 4,
+  "mobileLeftColumn": 20,
+  "mobileRightColumn": 24,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "onClick": "{{navigateTo('Homepage', {}, 'SAME_WINDOW');}}",
+  "originalBottomRow": 87,
+  "originalTopRow": 83,
+  "parentColumnSpace": 19.5,
+  "parentId": "42m0dv3umz",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 6,
+  "topRow": 3,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "6kgt5m7fvt",
+  "widgetName": "NavigateToHome"
+}

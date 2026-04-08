@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 95,
+  "bottomRow": 101,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -30,8 +30,8 @@
   "mobileRightColumn": 17,
   "mobileTopRow": 44,
   "needsErrorInfo": false,
-  "originalBottomRow": 95,
-  "originalTopRow": 91,
+  "originalBottomRow": 101,
+  "originalTopRow": 97,
   "overflow": "NONE",
   "parentColumnSpace": 19.607421875,
   "parentId": "42m0dv3umz",
@@ -43,7 +43,7 @@
   "text": "Why PC Building?",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 91,
+  "topRow": 97,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

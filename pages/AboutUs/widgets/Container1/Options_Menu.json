@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 7,
+  "bottomRow": 8,
   "boxShadow": "none",
   "configureMenuItems": {
     "config": {
@@ -32,9 +32,6 @@
     },
     {
       "key": "menuItems.menuItem2.onClick"
-    },
-    {
-      "key": "menuItems.menuItem84x7htcsup.onClick"
     }
   ],
   "iconAlign": "left",
@@ -45,7 +42,7 @@
   "isVisible": true,
   "key": "e0zlkeu91r",
   "label": "",
-  "leftColumn": 59,
+  "leftColumn": 58,
   "menuColor": "#1e3a8a",
   "menuItems": {
     "menuItem2": {
@@ -53,21 +50,12 @@
       "iconAlign": "left",
       "iconColor": "#1e3a8a",
       "id": "menuItem2",
-      "index": 2,
+      "index": 1,
       "isDisabled": false,
       "isVisible": true,
       "label": "Sign Out",
       "onClick": "{{\n  storeValue(\"profileId\", null);\n  showAlert(\"Logged out\", \"success\");\n  navigateTo(\"Login\");\n}}",
       "widgetId": ""
-    },
-    "menuItem84x7htcsup": {
-      "id": "menuItem84x7htcsup",
-      "index": 1,
-      "isDisabled": false,
-      "isVisible": true,
-      "label": "About the Creators",
-      "onClick": "{{navigateTo('AboutUs', {}, 'SAME_WINDOW');}}",
-      "widgetId": "0i2qv55blq"
     },
     "menuItembdyynrx488": {
       "id": "menuItembdyynrx488",
@@ -89,15 +77,15 @@
   "originalBottomRow": 71,
   "originalTopRow": 67,
   "parentColumnSpace": 19.8125,
-  "parentId": "00pnunk1zk",
+  "parentId": "42m0dv3umz",
   "parentRowSpace": 10,
   "placement": "CENTER",
   "renderMode": "CANVAS",
-  "rightColumn": 63,
+  "rightColumn": 62,
   "sourceData": "[]",
-  "topRow": 2,
+  "topRow": 3,
   "type": "MENU_BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "1h93ewoide",
+  "widgetId": "766ygq967m",
   "widgetName": "Options_Menu"
 }
